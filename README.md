@@ -20,6 +20,8 @@ uv run marimo run notebook.py
 
 ## Scholen toevoegen
 
+Je kunt scholen toevoegen aan het dashboard om de resultaat- en tevredenheidcijfers te vergelijken. De "red flags" sectie wordt dan neit ge-update - die is gemaakt door Claude.
+
 Stappen:
 1. Voeg de URLs van de "tevredenheid" en "resultaten" pagina's toe aan urls.txt.
 2. Download de HTML: 
@@ -42,3 +44,4 @@ uv run python create_database.py
 ```
 uv run marimo run notebook.py
 ```
+
