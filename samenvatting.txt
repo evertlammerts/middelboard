@@ -1,0 +1,91 @@
+  Comprehensive School Analysis & Ranking
+
+  Final Scores (0-100 scale)
+  Rank: 1
+  School: Barlaeus Gymnasium
+  Score: 90.9
+  Strengths: Best exams (6.95), highest satisfaction
+  Concerns: Declining trends (-3.5%)
+  ────────────────────────────────────────
+  Rank: 2
+  School: Het Amsterdams Lyceum
+  Score: 87.3
+  Strengths: Strong exams (6.84), high pass rate (94.4%)
+  Concerns: Student satisfaction declining
+  ────────────────────────────────────────
+  Rank: 3
+  School: Spinoza Lyceum Amsterdam
+  Score: 86.1
+  Strengths: Excellent pass rate (94.8%), safe (9.36)
+  Concerns: Lower doorstroom bovenbouw (86.2%)
+  ────────────────────────────────────────
+  Rank: 4
+  School: St. Nicolaaslyceum
+  Score: 85.6
+  Strengths: Best pass rate (95.5%), stable trends
+  Concerns: Limited satisfaction data
+  ────────────────────────────────────────
+  Rank: 5
+  School: Montessori Lyceum
+  Score: 81.7
+  Strengths: Good doorstroom onderbouw (98.3%)
+  Concerns: Sfeer dropped 1.2 points
+  ────────────────────────────────────────
+  Rank: 6
+  School: Fons Vitae Lyceum
+  Score: 80.5
+  Strengths: Above avg pass rate (91%)
+  Concerns: Lowest exam score (6.64)
+  ────────────────────────────────────────
+  Rank: 7
+  School: Geert Groote College
+  Score: 78.4
+  Strengths: Good doorstroom
+  Concerns: ⚠️ Pass rate 82.5% (8.3% below avg)
+  ────────────────────────────────────────
+  Rank: 8
+  School: Gerrit van der Veen College
+  Score: 76.7
+  Strengths: Students outperform advice (41.8%)
+  Concerns: ⚠️ Pass rate 84.5%, lowest satisfaction
+  ---
+  🚨 Red Flags by School
+
+  Geert Groote College Amsterdam
+  - Pass rate 82.5% (national avg: 90.8%) — worst performer
+  - Central exam score 6.30 (0.3 below national)
+  - Bovenbouw doorstroom 84.1% (lowest)
+  - Career guidance score: 4.2 (critical)
+  - Extra-curricular activities: 4.2 (critical)
+
+  Gerrit van der Veen College
+  - Pass rate 84.5% (6.3% below national)
+  - 5 critical questions (score < 5.5) — most of any school
+  - Student satisfaction 5.92 (lowest with data)
+  - Parent satisfaction 7.24 (0.5 below benchmark)
+
+  Montessori Lyceum Amsterdam
+  - Sfeer (atmosphere) dropped 1.21 points over 3 years (worst decline)
+  - All 4 satisfaction metrics below benchmark
+  - Parent satisfaction 7.26 (lowest with data)
+  - ICT question score: 5.1 (critical)
+
+  Het Amsterdams Lyceum
+  - Student satisfaction declined 0.7 points over 3 years
+  - Career guidance: 5.4 (concerning)
+  - News discussion in class: 4.4 (critical)
+
+  ---
+  📊 Key Patterns Across All Schools
+
+  Systemic weakness: "Do teachers discuss the news in class?" scores 4.1-4.8 across ALL schools —
+  this appears to be a sector-wide issue, not school-specific.
+
+  Best performers:
+  - Barlaeus leads in exam results, student satisfaction, and atmosphere
+  - St. Nicolaaslyceum has the highest pass rate and most stable satisfaction trends
+  - Spinoza excels in safety perception (9.36) and parent satisfaction (8.69)
+
+  Concerning trends:
+  - 6 of 8 schools show declining satisfaction over 3 years
+  - Only St. Nicolaaslyceum (+0.09) and Gerrit van der Veen sfeer (+0.09) improved
