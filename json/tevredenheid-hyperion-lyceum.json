@@ -1,0 +1,205 @@
+{
+  "school": {
+    "name": "Hyperion Lyceum"
+  },
+  "trends": {
+    "leerlingen": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 6.8085315534,
+        "vergelijking": 6.497766162
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 6.8853409449,
+        "vergelijking": 6.4141116449
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 6.6705756757,
+        "vergelijking": null
+      }
+    ],
+    "ouders": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 8.1206594937,
+        "vergelijking": 7.8934644571
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 8.1984237354,
+        "vergelijking": 7.7864221191
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 8.0904882927,
+        "vergelijking": null
+      }
+    ],
+    "sfeer": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 7.7942216981,
+        "vergelijking": 7.5648616995
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 7.7241709184,
+        "vergelijking": 7.3987216792
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 7.5597063979,
+        "vergelijking": null
+      }
+    ],
+    "veiligheid": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 9.5358009709,
+        "vergelijking": 9.5144375307
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 9.4795767717,
+        "vergelijking": 9.41636997
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 9.1805743243,
+        "vergelijking": null
+      }
+    ]
+  },
+  "vragen": {
+    "leerling": [
+      {
+        "vraag": "Helpen leraren je om je best te doen op school?",
+        "cijfer": 7.0
+      },
+      {
+        "vraag": "Letten je leraren op wat je goed en niet zo goed kunt?",
+        "cijfer": 6.2
+      },
+      {
+        "vraag": "Ben je tevreden over wat je leert op school?",
+        "cijfer": 6.6
+      },
+      {
+        "vraag": "Helpt de school je met het kiezen van een volgende studie of werk?",
+        "cijfer": 6.4
+      },
+      {
+        "vraag": "Kunnen je leraren goed uitleggen?",
+        "cijfer": 6.5
+      },
+      {
+        "vraag": "Ben je tevreden over je mentor?",
+        "cijfer": 7.7
+      },
+      {
+        "vraag": "Krijg je hulp als je problemen hebt met leren?",
+        "cijfer": 7.2
+      },
+      {
+        "vraag": "Vertellen je leraren je duidelijk hoe je een opdracht of toets hebt gemaakt?",
+        "cijfer": 6.5
+      },
+      {
+        "vraag": "Doet de school iets met de mening of ideeën van leerlingen?",
+        "cijfer": 6.1
+      },
+      {
+        "vraag": "Doe je verschillende dingen in een les?",
+        "cijfer": 6.4
+      },
+      {
+        "vraag": "Bespreken leraren wel eens het nieuws in de lessen?",
+        "cijfer": 5.1
+      },
+      {
+        "vraag": "Is dat wat je leert op school nuttig voor als je van school af gaat?",
+        "cijfer": 5.8
+      },
+      {
+        "vraag": "Ben je tevreden over de extra activiteiten buiten de les?",
+        "cijfer": 5.8
+      },
+      {
+        "vraag": "Werken computers, laptops of tablets goed op je school?",
+        "cijfer": 8.5
+      },
+      {
+        "vraag": "Ben je tevreden met het gebruik van computers of digibord in de les?",
+        "cijfer": 8.5
+      },
+      {
+        "vraag": "Vertelt de school leerlingen de belangrijke dingen die op school gebeuren?",
+        "cijfer": 6.6
+      }
+    ],
+    "ouder": [
+      {
+        "vraag": "De school biedt onderwijs dat aansluit op het niveau van mijn kind.",
+        "cijfer": 8.9
+      },
+      {
+        "vraag": "Mijn kind krijgt op school de mogelijkheid om zijn of haar talenten te ontwikkelen.",
+        "cijfer": 8.3
+      },
+      {
+        "vraag": "De school stimuleert mijn kind om zijn of haar best te doen.",
+        "cijfer": 8.0
+      },
+      {
+        "vraag": "De school zorgt dat mijn kind geïnteresseerd is in de lesstof.",
+        "cijfer": 7.0
+      },
+      {
+        "vraag": "Er zijn voldoende ICT-middelen beschikbaar op school.",
+        "cijfer": 8.7
+      },
+      {
+        "vraag": "De school bereidt mijn kind goed voor op wat hij of zij later in de samenleving tegenkomt.",
+        "cijfer": 8.0
+      },
+      {
+        "vraag": "Mijn kind leert op school goed samenwerken met anderen.",
+        "cijfer": 8.3
+      },
+      {
+        "vraag": "De school leert mijn kind om een eigen mening te vormen.",
+        "cijfer": 8.9
+      },
+      {
+        "vraag": "De school houdt mij op de hoogte van belangrijke gebeurtenissen.",
+        "cijfer": 8.2
+      },
+      {
+        "vraag": "Ik word door de school goed geïnformeerd over de vorderingen van mijn kind.",
+        "cijfer": 7.1
+      },
+      {
+        "vraag": "Ik kan makkelijk contact krijgen met de school als ik dat wil.",
+        "cijfer": 8.1
+      },
+      {
+        "vraag": "Ik zou andere ouders aanraden deze school voor hun kind te kiezen.",
+        "cijfer": 8.1
+      },
+      {
+        "vraag": "Ik ben tevreden over de mentor van mijn kind.",
+        "cijfer": 8.6
+      },
+      {
+        "vraag": "Mijn kind gaat met plezier naar school.",
+        "cijfer": 7.6
+      },
+      {
+        "vraag": "Pesten wordt op school goed aangepakt.",
+        "cijfer": null
+      }
+    ]
+  }
+}
