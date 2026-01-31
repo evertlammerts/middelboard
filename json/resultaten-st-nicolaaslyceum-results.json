@@ -1,0 +1,233 @@
+{
+  "school": {
+    "name": "St. Nicolaaslyceum"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 96.8182
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 96.8326
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 96.8539
+        }
+      ]
+    },
+    "bovenbouw": {
+      "havo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 81.8182
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 75.4386
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 84.4523
+        }
+      ],
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 88.4187
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 87.3684
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 91.7172
+        }
+      ]
+    }
+  },
+  "schooladvies": {
+    "havo": [
+      {
+        "positie": "boven advies",
+        "percentage": 1.639344262295082,
+        "vergelijking": 11.311273347871433
+      },
+      {
+        "positie": "op advies",
+        "percentage": 85.24590163934427,
+        "vergelijking": 77.71878259220631
+      },
+      {
+        "positie": "onder advies",
+        "percentage": 13.114754098360656,
+        "vergelijking": 10.969944059922252
+      }
+    ],
+    "vwo": [
+      {
+        "positie": "boven advies",
+        "percentage": 29.133858267716537,
+        "vergelijking": 33.71778961968027
+      },
+      {
+        "positie": "op advies",
+        "percentage": 70.86614173228347,
+        "vergelijking": 66.28221038031973
+      }
+    ]
+  },
+  "slagingspercentage": {
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 98.7654,
+        "vergelijking": 90.5468
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 92.3077,
+        "vergelijking": 84.2594
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 91.954,
+        "vergelijking": 87.934
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 98.913,
+        "vergelijking": 92.81
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 92.2222,
+        "vergelijking": 88.5833
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 95.5357,
+        "vergelijking": 90.7905
+      }
+    ]
+  },
+  "examencijfers": {
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.5787,
+        "centraalExamenVergelijking": 6.2529,
+        "schoolExamen": 6.3183,
+        "eindcijfer": 6.4933
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.5905,
+        "centraalExamenVergelijking": 6.3505,
+        "schoolExamen": 6.3208,
+        "eindcijfer": 6.4958
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.5673,
+        "centraalExamenVergelijking": 6.4401,
+        "schoolExamen": 6.4163,
+        "eindcijfer": 6.5467
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.5133,
+        "centraalExamenVergelijking": 6.4217,
+        "schoolExamen": 6.8004,
+        "eindcijfer": 6.7883
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.7587,
+        "centraalExamenVergelijking": 6.547,
+        "schoolExamen": 6.7989,
+        "eindcijfer": 6.8879
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.6983,
+        "centraalExamenVergelijking": 6.6007,
+        "schoolExamen": 6.6716,
+        "eindcijfer": 6.78
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "havo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "14",
+        "geslaagden": "13"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "39",
+        "geslaagden": "36"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "23",
+        "geslaagden": "20"
+      }
+    ],
+    "vwo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "6",
+        "geslaagden": "6"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "37",
+        "geslaagden": "37"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "36",
+        "geslaagden": "33"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "<5",
+        "geslaagden": "<5"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": 4.75,
+      "schoolwaarde": 11.09,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 93.99,
+      "schoolwaarde": 96.8,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "havo": {
+        "inspectienorm": 78.18,
+        "schoolwaarde": 80.85,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vwo": {
+        "inspectienorm": 79.9,
+        "schoolwaarde": 89.31,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

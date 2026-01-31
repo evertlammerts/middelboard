@@ -1,0 +1,140 @@
+{
+  "school": {
+    "name": "Het Amsterdams Lyceum"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 98.0226
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 97.8667
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 97.2376
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 88.9356
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 89.8571
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 91.2482
+        }
+      ]
+    }
+  },
+  "schooladvies": {
+    "vwo": [
+      {
+        "positie": "boven advies",
+        "percentage": 1.3071895424836601,
+        "vergelijking": 6.853196387462369
+      },
+      {
+        "positie": "op advies",
+        "percentage": 98.69281045751634,
+        "vergelijking": 93.14680361253762
+      }
+    ]
+  },
+  "slagingspercentage": {
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 92.8571,
+        "vergelijking": 92.81
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 88.024,
+        "vergelijking": 88.5833
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 94.3662,
+        "vergelijking": 90.7905
+      }
+    ]
+  },
+  "examencijfers": {
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.4514,
+        "centraalExamenVergelijking": 6.4199,
+        "schoolExamen": 6.6553,
+        "eindcijfer": 6.6341
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.7435,
+        "centraalExamenVergelijking": 6.5458,
+        "schoolExamen": 6.8611,
+        "eindcijfer": 6.867
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.8023,
+        "centraalExamenVergelijking": 6.5998,
+        "schoolExamen": 6.8023,
+        "eindcijfer": 6.8383
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "vwo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "8",
+        "geslaagden": "7"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "23",
+        "geslaagden": "22"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "23",
+        "geslaagden": "23"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "14",
+        "geslaagden": "14"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": 1.35,
+      "schoolwaarde": -1.21,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 94.36,
+      "schoolwaarde": 97.73,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "vwo": {
+        "inspectienorm": 80.17,
+        "schoolwaarde": 90.21,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

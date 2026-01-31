@@ -1,0 +1,213 @@
+{
+  "school": {
+    "name": "Montessori Lyceum Amsterdam - Hoofdlocatie"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 95.9906
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 97.0874
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 98.2906
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vmbo": [
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 86.4865
+        }
+      ],
+      "havo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 82.0189
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 72.3164
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 80.5732
+        }
+      ],
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 91.5625
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 82.7709
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 89.9384
+        }
+      ]
+    }
+  },
+  "schooladvies": {},
+  "slagingspercentage": {
+    "havo": [
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 66.6667,
+        "vergelijking": 84.2594
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 84.1176,
+        "vergelijking": 87.934
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 84.5638,
+        "vergelijking": 88.5833
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 87.6812,
+        "vergelijking": 90.7905
+      }
+    ],
+    "vmbo": [
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 87.5,
+        "vergelijking": 91.5183
+      }
+    ]
+  },
+  "examencijfers": {
+    "havo": [
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 5.971,
+        "centraalExamenVergelijking": 6.3505,
+        "schoolExamen": 6.2075,
+        "eindcijfer": 6.1777
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.3772,
+        "centraalExamenVergelijking": 6.4402,
+        "schoolExamen": 6.4575,
+        "eindcijfer": 6.4872
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.4223,
+        "centraalExamenVergelijking": 6.547,
+        "schoolExamen": 6.8746,
+        "eindcijfer": 6.7555
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.5425,
+        "centraalExamenVergelijking": 6.6005,
+        "schoolExamen": 6.8444,
+        "eindcijfer": 6.8043
+      }
+    ],
+    "vmbo": [
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.3314,
+        "centraalExamenVergelijking": 6.3672,
+        "schoolExamen": 6.4689,
+        "eindcijfer": 6.4286
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "vmbo-(g)t": [
+      {
+        "profiel": "Economie",
+        "deelnemers": "32",
+        "geslaagden": "30"
+      },
+      {
+        "profiel": "Techniek",
+        "deelnemers": "7",
+        "geslaagden": "6"
+      }
+    ],
+    "havo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "51",
+        "geslaagden": "42"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "72",
+        "geslaagden": "58"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "20",
+        "geslaagden": "19"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "6",
+        "geslaagden": "5"
+      }
+    ],
+    "vwo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "34",
+        "geslaagden": "30"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "14",
+        "geslaagden": "13"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "15",
+        "geslaagden": "12"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "5",
+        "geslaagden": "5"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderbouwsnelheid": {
+      "inspectienorm": 93.9,
+      "schoolwaarde": 96.61,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "havo": {
+        "inspectienorm": 77.59,
+        "schoolwaarde": 78.01,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vwo": {
+        "inspectienorm": 79.69,
+        "schoolwaarde": 87.36,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[project]
+name = "scholenopdekaart"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "duckdb>=1.4.4",
+    "marimo>=0.19.7",
+]
