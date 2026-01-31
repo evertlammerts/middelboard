@@ -44,7 +44,6 @@ def _(mo):
 def _(mo):
     examens = mo.sql(
         f"""
-        ATTACH 'scholen.duckdb' (READ_ONLY);
         SELECT
             s.name as School,
             round(e.eindcijfer, 2) as Eindcijfer,
