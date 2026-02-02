@@ -1,0 +1,125 @@
+{
+  "school": {
+    "name": "Xplore - Agora Amsterdam"
+  },
+  "trends": {
+    "leerlingen": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 7.6153277778,
+        "vergelijking": 6.497766162
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 7.1291833333,
+        "vergelijking": 6.4141116449
+      }
+    ],
+    "ouders": [
+      {
+        "schooljaar": "2021-2022",
+        "cijfer": 7.9597970588,
+        "vergelijking": 7.8934644571
+      },
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 7.9386682171,
+        "vergelijking": 7.7864221191
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 7.9660326531,
+        "vergelijking": null
+      }
+    ],
+    "sfeer": [
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 7.5309210526,
+        "vergelijking": 7.5074834301
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 7.5906139315,
+        "vergelijking": null
+      }
+    ],
+    "veiligheid": [
+      {
+        "schooljaar": "2022-2023",
+        "cijfer": 8.9265625,
+        "vergelijking": 9.1301397127
+      },
+      {
+        "schooljaar": "2023-2024",
+        "cijfer": 8.9416666667,
+        "vergelijking": null
+      }
+    ]
+  },
+  "vragen": {
+    "leerling": [],
+    "ouder": [
+      {
+        "vraag": "De school biedt onderwijs dat aansluit op het niveau van mijn kind.",
+        "cijfer": 7.7
+      },
+      {
+        "vraag": "Mijn kind krijgt op school de mogelijkheid om zijn of haar talenten te ontwikkelen.",
+        "cijfer": 8.4
+      },
+      {
+        "vraag": "De school stimuleert mijn kind om zijn of haar best te doen.",
+        "cijfer": 7.4
+      },
+      {
+        "vraag": "De school zorgt dat mijn kind geïnteresseerd is in de lesstof.",
+        "cijfer": 7.2
+      },
+      {
+        "vraag": "Er zijn voldoende ICT-middelen beschikbaar op school.",
+        "cijfer": 7.8
+      },
+      {
+        "vraag": "De school bereidt mijn kind goed voor op wat hij of zij later in de samenleving tegenkomt.",
+        "cijfer": 7.7
+      },
+      {
+        "vraag": "Mijn kind leert op school goed samenwerken met anderen.",
+        "cijfer": 8.7
+      },
+      {
+        "vraag": "De school leert mijn kind om een eigen mening te vormen.",
+        "cijfer": 8.8
+      },
+      {
+        "vraag": "De school houdt mij op de hoogte van belangrijke gebeurtenissen.",
+        "cijfer": 8.0
+      },
+      {
+        "vraag": "Ik word door de school goed geïnformeerd over de vorderingen van mijn kind.",
+        "cijfer": 6.9
+      },
+      {
+        "vraag": "Ik kan makkelijk contact krijgen met de school als ik dat wil.",
+        "cijfer": 8.9
+      },
+      {
+        "vraag": "Ik zou andere ouders aanraden deze school voor hun kind te kiezen.",
+        "cijfer": 7.5
+      },
+      {
+        "vraag": "Ik ben tevreden over de mentor van mijn kind.",
+        "cijfer": 8.8
+      },
+      {
+        "vraag": "Mijn kind gaat met plezier naar school.",
+        "cijfer": 8.3
+      },
+      {
+        "vraag": "Pesten wordt op school goed aangepakt.",
+        "cijfer": 8.1
+      }
+    ]
+  }
+}

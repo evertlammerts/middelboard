@@ -1,0 +1,100 @@
+{
+  "school": {
+    "name": "Montessori Lyceum Pax"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 93.3649
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 98.5849
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vmbo": [
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 85
+        }
+      ],
+      "havo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 80.7407
+        }
+      ],
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 80.5031
+        }
+      ]
+    }
+  },
+  "schooladvies": {},
+  "slagingspercentage": {
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 85.8268,
+        "vergelijking": 90.5468
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 81.295,
+        "vergelijking": 92.81
+      }
+    ],
+    "vmbo": [
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 94.6429,
+        "vergelijking": 91.3562
+      }
+    ]
+  },
+  "examencijfers": {
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.1611,
+        "centraalExamenVergelijking": 6.2529,
+        "schoolExamen": 6.3711,
+        "eindcijfer": 6.385
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.1585,
+        "centraalExamenVergelijking": 6.4217,
+        "schoolExamen": 6.7523,
+        "eindcijfer": 6.5872
+      }
+    ],
+    "vmbo": [
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.4167,
+        "centraalExamenVergelijking": 6.3943,
+        "schoolExamen": 6.3144,
+        "eindcijfer": 6.3736
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {},
+  "oordeelInspectie": {
+    "onderbouwsnelheid": {
+      "inspectienorm": 93.48,
+      "schoolwaarde": 96,
+      "periode": "2021-2022 t/m 2023-2024"
+    }
+  }
+}

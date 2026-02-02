@@ -1,0 +1,40 @@
+{
+  "school": {
+    "name": "Kairos Tienercollege"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 100
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 100
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 100
+        }
+      ]
+    },
+    "bovenbouw": {}
+  },
+  "schooladvies": {},
+  "slagingspercentage": {},
+  "examencijfers": {},
+  "geslaagdenPerProfiel": {},
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": -0.55,
+      "schoolwaarde": 14.08,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 93.86,
+      "schoolwaarde": 100,
+      "periode": "2021-2022 t/m 2023-2024"
+    }
+  }
+}

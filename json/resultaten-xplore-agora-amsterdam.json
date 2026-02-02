@@ -1,0 +1,97 @@
+{
+  "school": {
+    "name": "Xplore - Agora Amsterdam"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 98.0769
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 99.2126
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 96.748
+        }
+      ]
+    },
+    "bovenbouw": {
+      "havo": [
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 51.3043
+        }
+      ]
+    }
+  },
+  "schooladvies": {},
+  "slagingspercentage": {
+    "havo": [
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 100,
+        "vergelijking": 84.2594
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 100,
+        "vergelijking": 87.934
+      }
+    ]
+  },
+  "examencijfers": {
+    "havo": [
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.8333,
+        "centraalExamenVergelijking": 6.3505,
+        "schoolExamen": 6.8,
+        "eindcijfer": 7
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.887,
+        "centraalExamenVergelijking": 6.4401,
+        "schoolExamen": 7.2282,
+        "eindcijfer": 7
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "havo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "6",
+        "geslaagden": "6"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "<5",
+        "geslaagden": "<5"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": -0.55,
+      "schoolwaarde": 44.08,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 93.76,
+      "schoolwaarde": 98.02,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "havo": {
+        "inspectienorm": 78.11,
+        "schoolwaarde": 46.89,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

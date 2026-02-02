@@ -1,0 +1,21 @@
+{
+  "school": {
+    "name": "Metropolis Lyceum"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 100
+        }
+      ]
+    },
+    "bovenbouw": {}
+  },
+  "schooladvies": {},
+  "slagingspercentage": {},
+  "examencijfers": {},
+  "geslaagdenPerProfiel": {},
+  "oordeelInspectie": {}
+}

@@ -1,0 +1,140 @@
+{
+  "school": {
+    "name": "Sint Ignatiusgymnasium"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 92.7336
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 98.2456
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 93.7063
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 90.8907
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 94.0937
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 92.2607
+        }
+      ]
+    }
+  },
+  "schooladvies": {
+    "vwo": [
+      {
+        "positie": "boven advies",
+        "percentage": 0,
+        "vergelijking": 6.853196387462369
+      },
+      {
+        "positie": "op advies",
+        "percentage": 100,
+        "vergelijking": 93.14680361253762
+      }
+    ]
+  },
+  "slagingspercentage": {
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 92.9204,
+        "vergelijking": 92.8089
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 94.1667,
+        "vergelijking": 88.5836
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 91.8182,
+        "vergelijking": 90.7945
+      }
+    ]
+  },
+  "examencijfers": {
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 6.825,
+        "centraalExamenVergelijking": 6.4199,
+        "schoolExamen": 6.8071,
+        "eindcijfer": 6.8748
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.9378,
+        "centraalExamenVergelijking": 6.5458,
+        "schoolExamen": 6.8558,
+        "eindcijfer": 6.9406
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 6.9484,
+        "centraalExamenVergelijking": 6.5998,
+        "schoolExamen": 6.8485,
+        "eindcijfer": 6.943
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "vwo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "10",
+        "geslaagden": "8"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "13",
+        "geslaagden": "13"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "17",
+        "geslaagden": "15"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "10",
+        "geslaagden": "7"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": 1.35,
+      "schoolwaarde": 0,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 94.55,
+      "schoolwaarde": 94.95,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "vwo": {
+        "inspectienorm": 80.84,
+        "schoolwaarde": 92.62,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

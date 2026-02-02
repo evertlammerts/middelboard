@@ -1,0 +1,228 @@
+{
+  "school": {
+    "name": "Marcanti College"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 100
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 98.7421
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 99.4898
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vmbo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 89.2857
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 65.1515
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 75.3846
+        }
+      ],
+      "havo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 67.4419
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 50.9434
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 60.3448
+        }
+      ]
+    }
+  },
+  "schooladvies": {
+    "vmbo": [
+      {
+        "positie": "boven advies",
+        "percentage": 100,
+        "vergelijking": 24.93817766787141
+      },
+      {
+        "positie": "op advies",
+        "percentage": 0,
+        "vergelijking": 59.80597298839643
+      },
+      {
+        "positie": "onder advies",
+        "percentage": 0,
+        "vergelijking": 15.255849343732166
+      }
+    ],
+    "havo": [
+      {
+        "positie": "boven advies",
+        "percentage": 100,
+        "vergelijking": 33.075221238938056
+      },
+      {
+        "positie": "op advies",
+        "percentage": 0,
+        "vergelijking": 58.69469026548673
+      },
+      {
+        "positie": "onder advies",
+        "percentage": 0,
+        "vergelijking": 8.230088495575222
+      }
+    ]
+  },
+  "slagingspercentage": {
+    "vmbo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 92.5926,
+        "vergelijking": 95.791
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 76.3158,
+        "vergelijking": 91.3562
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 82.6087,
+        "vergelijking": 91.5183
+      }
+    ],
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 68,
+        "vergelijking": 90.5468
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 46.6667,
+        "vergelijking": 84.2594
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 68,
+        "vergelijking": 87.934
+      }
+    ]
+  },
+  "examencijfers": {
+    "vmbo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 5.6407,
+        "centraalExamenVergelijking": 6.2443,
+        "schoolExamen": 6.2227,
+        "eindcijfer": 6.0464
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 5.9996,
+        "centraalExamenVergelijking": 6.3943,
+        "schoolExamen": 6.3953,
+        "eindcijfer": 6.2554
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 5.9046,
+        "centraalExamenVergelijking": 6.3672,
+        "schoolExamen": 6.393,
+        "eindcijfer": 6.269
+      }
+    ],
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 5.484,
+        "centraalExamenVergelijking": 6.2529,
+        "schoolExamen": 6.5474,
+        "eindcijfer": 6.2565
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 5.5,
+        "centraalExamenVergelijking": 6.3505,
+        "schoolExamen": 6.6783,
+        "eindcijfer": 6.2899
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 5.7761,
+        "centraalExamenVergelijking": 6.4402,
+        "schoolExamen": 6.6657,
+        "eindcijfer": 6.4304
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "vmbo-(g)t": [
+      {
+        "profiel": "Economie",
+        "deelnemers": "27",
+        "geslaagden": "21"
+      }
+    ],
+    "havo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "12",
+        "geslaagden": "8"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "<5",
+        "geslaagden": "<5"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": -10.05,
+      "schoolwaarde": 27.89,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 92.41,
+      "schoolwaarde": 99.39,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "vmbo-b": {
+        "inspectienorm": 82.16,
+        "schoolwaarde": 91.55,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vmbo-k": {
+        "inspectienorm": 81.83,
+        "schoolwaarde": 86.57,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vmbo-(g)t": {
+        "inspectienorm": 79.55,
+        "schoolwaarde": 72.96,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "havo": {
+        "inspectienorm": 75.03,
+        "schoolwaarde": 58.71,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "school": {
+    "name": "Montessori Lyceum Terra Nova"
+  },
+  "doorstroom": {
+    "onderbouw": {
+      "combined": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 99.115
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 98.7288
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 99.4737
+        }
+      ]
+    },
+    "bovenbouw": {
+      "vmbo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 88.0597
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 83.8095
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 79.8165
+        }
+      ],
+      "havo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 72.8745
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 68.2292
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 58.042
+        }
+      ],
+      "vwo": [
+        {
+          "schooljaar": "2021-2022",
+          "percentage": 83.5443
+        },
+        {
+          "schooljaar": "2022-2023",
+          "percentage": 78.4615
+        },
+        {
+          "schooljaar": "2023-2024",
+          "percentage": 65.1685
+        }
+      ]
+    }
+  },
+  "schooladvies": {},
+  "slagingspercentage": {
+    "vmbo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 84.8837,
+        "vergelijking": 95.807
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 83.0508,
+        "vergelijking": 91.3467
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 84.6154,
+        "vergelijking": 91.5298
+      }
+    ],
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 72.3214,
+        "vergelijking": 90.5472
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 75.5814,
+        "vergelijking": 84.2419
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 52.6316,
+        "vergelijking": 87.9347
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "percentage": 78.9474,
+        "vergelijking": 92.8089
+      },
+      {
+        "schooljaar": "2022-2023",
+        "percentage": 80.4878,
+        "vergelijking": 88.5836
+      },
+      {
+        "schooljaar": "2023-2024",
+        "percentage": 62.1622,
+        "vergelijking": 90.7945
+      }
+    ]
+  },
+  "examencijfers": {
+    "vmbo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 5.7151,
+        "centraalExamenVergelijking": 6.245,
+        "schoolExamen": 6.2087,
+        "eindcijfer": 6.1136
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.1098,
+        "centraalExamenVergelijking": 6.395,
+        "schoolExamen": 6.3993,
+        "eindcijfer": 6.3233
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 5.9421,
+        "centraalExamenVergelijking": 6.3667,
+        "schoolExamen": 6.257,
+        "eindcijfer": 6.1907
+      }
+    ],
+    "havo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 5.4877,
+        "centraalExamenVergelijking": 6.2531,
+        "schoolExamen": 6.2708,
+        "eindcijfer": 6.1222
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 5.8761,
+        "centraalExamenVergelijking": 6.3499,
+        "schoolExamen": 6.4677,
+        "eindcijfer": 6.3883
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 5.79,
+        "centraalExamenVergelijking": 6.4405,
+        "schoolExamen": 6.3084,
+        "eindcijfer": 6.2467
+      }
+    ],
+    "vwo": [
+      {
+        "schooljaar": "2021-2022",
+        "centraalExamen": 5.7391,
+        "centraalExamenVergelijking": 6.4199,
+        "schoolExamen": 6.6102,
+        "eindcijfer": 6.3881
+      },
+      {
+        "schooljaar": "2022-2023",
+        "centraalExamen": 6.1392,
+        "centraalExamenVergelijking": 6.5458,
+        "schoolExamen": 6.7283,
+        "eindcijfer": 6.6086
+      },
+      {
+        "schooljaar": "2023-2024",
+        "centraalExamen": 5.7732,
+        "centraalExamenVergelijking": 6.5998,
+        "schoolExamen": 6.8295,
+        "eindcijfer": 6.5956
+      }
+    ]
+  },
+  "geslaagdenPerProfiel": {
+    "vmbo-(g)t": [
+      {
+        "profiel": "Economie",
+        "deelnemers": "25",
+        "geslaagden": "22"
+      },
+      {
+        "profiel": "Techniek",
+        "deelnemers": "12",
+        "geslaagden": "10"
+      }
+    ],
+    "havo": [
+      {
+        "profiel": "Cultuur en Maatschappij",
+        "deelnemers": "11",
+        "geslaagden": "7"
+      },
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "21",
+        "geslaagden": "8"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "11",
+        "geslaagden": "7"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "8",
+        "geslaagden": "5"
+      }
+    ],
+    "vwo": [
+      {
+        "profiel": "Economie en Maatschappij",
+        "deelnemers": "6",
+        "geslaagden": "<5"
+      },
+      {
+        "profiel": "Natuur en Gezondheid",
+        "deelnemers": "14",
+        "geslaagden": "8"
+      },
+      {
+        "profiel": "Natuur en Techniek",
+        "deelnemers": "<5",
+        "geslaagden": "<5"
+      }
+    ]
+  },
+  "oordeelInspectie": {
+    "onderwijspositie": {
+      "inspectienorm": -7,
+      "schoolwaarde": 15.71,
+      "periode": "2022-2023 t/m 2024-2025"
+    },
+    "onderbouwsnelheid": {
+      "inspectienorm": 92.75,
+      "schoolwaarde": 99.09,
+      "periode": "2021-2022 t/m 2023-2024"
+    },
+    "bovenbouwsucces": {
+      "vmbo-k": {
+        "inspectienorm": 82.6,
+        "schoolwaarde": 92.46,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vmbo-(g)t": {
+        "inspectienorm": 80.46,
+        "schoolwaarde": 84.2,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "havo": {
+        "inspectienorm": 75.74,
+        "schoolwaarde": 67.81,
+        "periode": "2021-2022 t/m 2023-2024"
+      },
+      "vwo": {
+        "inspectienorm": 78.13,
+        "schoolwaarde": 77.51,
+        "periode": "2021-2022 t/m 2023-2024"
+      }
+    }
+  }
+}
