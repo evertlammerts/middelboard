@@ -3,7 +3,8 @@
     "name": "Sint Ignatiusgymnasium",
     "address": "Jan van Eijckstraat 47 &#xA;",
     "postalCode": "1077 LH",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 781
   },
   "doorstroom": {
     "onderbouw": {

@@ -3,7 +3,8 @@
     "name": "Pieter Nieuwland College",
     "address": "Nobelweg 6",
     "postalCode": "1097 AR",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 853
   },
   "doorstroom": {
     "onderbouw": {

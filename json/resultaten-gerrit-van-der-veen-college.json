@@ -3,7 +3,8 @@
     "name": "Gerrit van der Veen College",
     "address": "Gerrit van der Veenstraat 99",
     "postalCode": "1077 DT",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 948
   },
   "doorstroom": {
     "onderbouw": {

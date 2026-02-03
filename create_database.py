@@ -16,7 +16,8 @@ def create_schema(con):
             name VARCHAR NOT NULL,
             address VARCHAR,
             postal_code VARCHAR,
-            city VARCHAR
+            city VARCHAR,
+            aantal_leerlingen INTEGER
         )
     """
     )
@@ -139,8 +140,8 @@ def load_school_data(con, school_id, data):
     school = data.get("school", {})
     con.execute(
         """
-        INSERT INTO schools (id, name, address, postal_code, city)
-        VALUES (?, ?, ?, ?, ?)
+        INSERT INTO schools (id, name, address, postal_code, city, aantal_leerlingen)
+        VALUES (?, ?, ?, ?, ?, ?)
     """,
         [
             school_id,
@@ -148,6 +149,7 @@ def load_school_data(con, school_id, data):
             school.get("address"),
             school.get("postalCode"),
             school.get("city"),
+            school.get("aantalLeerlingen"),
         ],
     )
 

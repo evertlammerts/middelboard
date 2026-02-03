@@ -3,7 +3,8 @@
     "name": "Calandlyceum",
     "address": "Pieter Calandlaan 182",
     "postalCode": "1068 NT",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1300
   },
   "doorstroom": {
     "onderbouw": {

@@ -257,6 +257,7 @@ def _(
     _quality = pl.from_arrow(db.execute("""
         SELECT
             s.name,
+            s.aantal_leerlingen,
             e.eindcijfer,
             e.centraal_examen as ce,
             e.centraal_examen_vergelijking as ce_land,
@@ -282,7 +283,7 @@ def _(
                    ROW_NUMBER() OVER (PARTITION BY school_id, metric ORDER BY schooljaar DESC) as rn
             FROM scholen_db.tevredenheid_trend
         ) t ON s.id = t.school_id AND t.rn = 1
-        GROUP BY s.name, e.eindcijfer, e.centraal_examen, e.centraal_examen_vergelijking, sp.percentage, sp.vergelijking
+        GROUP BY s.name, s.aantal_leerlingen, e.eindcijfer, e.centraal_examen, e.centraal_examen_vergelijking, sp.percentage, sp.vergelijking
     """).fetch_arrow_table())
 
     # Create lookup dict for quality data
@@ -358,14 +359,15 @@ def _(
 
         schools_list.append({
             "School": _btn,
+            "Leerlingen": _q.get('aantal_leerlingen') or "-",
             "Capaciteit": _row.get('capaciteit') or 0,
             "1e Voorkeur": _row.get('eerste_voorkeur') or 0,
             "Ratio": _ratio_display,
             "Eindcijfer": f"{_q.get('eindcijfer'):.1f}" if _q.get('eindcijfer') else "-",
             "CE": _ce_display,
             "Slaag%": _slaag_display,
-            "Leerl.": f"{_q.get('tevr_leerlingen'):.1f}" if _q.get('tevr_leerlingen') else "-",
-            "Ouders": f"{_q.get('tevr_ouders'):.1f}" if _q.get('tevr_ouders') else "-",
+            "Tevr.Leerl.": f"{_q.get('tevr_leerlingen'):.1f}" if _q.get('tevr_leerlingen') else "-",
+            "Tevr.Ouders": f"{_q.get('tevr_ouders'):.1f}" if _q.get('tevr_ouders') else "-",
             "Sfeer": f"{_q.get('tevr_sfeer'):.1f}" if _q.get('tevr_sfeer') else "-",
             "Veilig": f"{_q.get('tevr_veiligheid'):.1f}" if _q.get('tevr_veiligheid') else "-",
             "In Lijst": "✓" if _in_list else "",
@@ -378,7 +380,7 @@ def _(
         })
 
     # For the table display, filter out internal columns (starting with _)
-    _visible_columns = ["School", "Capaciteit", "1e Voorkeur", "Ratio", "Eindcijfer", "CE", "Slaag%", "Leerl.", "Ouders", "Sfeer", "Veilig", "In Lijst"]
+    _visible_columns = ["School", "Leerlingen", "Capaciteit", "1e Voorkeur", "Ratio", "Eindcijfer", "CE", "Slaag%", "Tevr.Leerl.", "Tevr.Ouders", "Sfeer", "Veilig", "In Lijst"]
     _display_list = [{k: v for k, v in row.items() if k in _visible_columns} for row in schools_list]
 
     explorer_table = mo.ui.table(

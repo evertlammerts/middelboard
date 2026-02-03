@@ -42,6 +42,12 @@ def extract_school_info(content):
             # Fallback: store the whole string as city
             info["city"] = postcode_city
 
+    # Extract number of students (leerlingen)
+    # Format: <span class=infotip-term data-dfn="Het aantal leerlingen op de school.">797 leerlingen
+    match = re.search(r'data-dfn="Het aantal leerlingen op de school\.">(\d+)\s*leerlingen', content)
+    if match:
+        info["aantalLeerlingen"] = int(match.group(1))
+
     return info
 
 

@@ -3,7 +3,8 @@
     "name": "Berlage Lyceum",
     "address": "Pieter Lodewijk Takstraat 33",
     "postalCode": "1073 KJ",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1175
   },
   "doorstroom": {
     "onderbouw": {

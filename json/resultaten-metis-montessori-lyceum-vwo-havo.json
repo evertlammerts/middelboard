@@ -3,7 +3,8 @@
     "name": "Metis Montessori Lyceum . vwo . havo",
     "address": "Mauritskade 58",
     "postalCode": "1092 AD",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1041
   },
   "doorstroom": {
     "onderbouw": {

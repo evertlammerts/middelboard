@@ -3,7 +3,8 @@
     "name": "Montessori Lyceum Pax",
     "address": "C. Van Eesterenlaan 50",
     "postalCode": "1019 JN",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 378
   },
   "doorstroom": {
     "onderbouw": {

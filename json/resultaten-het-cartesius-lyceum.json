@@ -3,7 +3,8 @@
     "name": "Het Cartesius Lyceum",
     "address": "Frederik Hendrikplantsoen 7A",
     "postalCode": "1052 XN",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 694
   },
   "doorstroom": {
     "onderbouw": {

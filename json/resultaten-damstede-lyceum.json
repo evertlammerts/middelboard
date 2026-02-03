@@ -3,7 +3,8 @@
     "name": "Damstede Lyceum",
     "address": "Rode Kruisstraat 83",
     "postalCode": "1025 KM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 713
   },
   "doorstroom": {
     "onderbouw": {

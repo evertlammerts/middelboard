@@ -3,7 +3,8 @@
     "name": "Het Hervormd Lyceum West",
     "address": "Hemsterhuisstraat 79",
     "postalCode": "1065 JX",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 822
   },
   "doorstroom": {
     "onderbouw": {

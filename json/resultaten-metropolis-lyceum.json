@@ -3,7 +3,8 @@
     "name": "Metropolis Lyceum",
     "address": "Meeuwenlaan 132",
     "postalCode": "1022 AM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 337
   },
   "doorstroom": {
     "onderbouw": {

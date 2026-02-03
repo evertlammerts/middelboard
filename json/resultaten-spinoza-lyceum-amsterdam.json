@@ -3,7 +3,8 @@
     "name": "Spinoza Lyceum Amsterdam",
     "address": "Peter van Anrooystraat 8",
     "postalCode": "1076 BH",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1337
   },
   "doorstroom": {
     "onderbouw": {

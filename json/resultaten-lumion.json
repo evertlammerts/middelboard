@@ -3,7 +3,8 @@
     "name": "Lumion",
     "address": "Vlaardingenlaan 25",
     "postalCode": "1062 HM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1428
   },
   "doorstroom": {
     "onderbouw": {

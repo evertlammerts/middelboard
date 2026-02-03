@@ -3,7 +3,8 @@
     "name": "Het Amsterdams Lyceum",
     "address": "Valeriusplein 15",
     "postalCode": "1075 BJ",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1092
   },
   "doorstroom": {
     "onderbouw": {

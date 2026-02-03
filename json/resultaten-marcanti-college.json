@@ -3,7 +3,8 @@
     "name": "Marcanti College",
     "address": "Jan Van Galenstraat 31",
     "postalCode": "1051 KM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 504
   },
   "doorstroom": {
     "onderbouw": {

@@ -3,7 +3,8 @@
     "name": "St. Nicolaaslyceum",
     "address": "Beethovenplein 2",
     "postalCode": "1077 WM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1234
   },
   "doorstroom": {
     "onderbouw": {

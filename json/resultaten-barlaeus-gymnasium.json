@@ -3,7 +3,8 @@
     "name": "Barlaeus Gymnasium",
     "address": "Weteringschans 31",
     "postalCode": "1017 RV",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 797
   },
   "doorstroom": {
     "onderbouw": {

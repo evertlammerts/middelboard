@@ -3,7 +3,8 @@
     "name": "Cygnus Gymnasium",
     "address": "Vrolikstraat 8",
     "postalCode": "1091 VG",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 820
   },
   "doorstroom": {
     "onderbouw": {

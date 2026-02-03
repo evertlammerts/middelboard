@@ -3,7 +3,8 @@
     "name": "Het 4e Gymnasium",
     "address": "Archangelweg 4",
     "postalCode": "1013 ZZ",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 812
   },
   "doorstroom": {
     "onderbouw": {

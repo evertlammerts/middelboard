@@ -3,7 +3,8 @@
     "name": "Montessori Lyceum Amsterdam - Hoofdlocatie",
     "address": "Pieter De Hoochstraat 59",
     "postalCode": "1071 ED",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 875
   },
   "doorstroom": {
     "onderbouw": {

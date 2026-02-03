@@ -3,7 +3,8 @@
     "name": "Kairos Tienercollege",
     "address": "Meeuwenlaan 136",
     "postalCode": "1022 AM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 133
   },
   "doorstroom": {
     "onderbouw": {

@@ -3,7 +3,8 @@
     "name": "OSB Amsterdam",
     "address": "Gulden Kruis 5",
     "postalCode": "1103 BE",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1200
   },
   "doorstroom": {
     "onderbouw": {

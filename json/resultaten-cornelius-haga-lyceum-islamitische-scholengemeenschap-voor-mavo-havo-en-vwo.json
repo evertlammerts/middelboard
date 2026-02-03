@@ -3,7 +3,8 @@
     "name": "Cornelius Haga Lyceum, Islamitische Scholengemeenschap voor mavo havo en vwo",
     "address": "Naritaweg 30",
     "postalCode": "1043 BZ",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 492
   },
   "doorstroom": {
     "onderbouw": {

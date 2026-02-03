@@ -3,7 +3,8 @@
     "name": "Xplore - Agora Amsterdam",
     "address": "Elzenhagenpad 2",
     "postalCode": "1025 WL",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 311
   },
   "doorstroom": {
     "onderbouw": {

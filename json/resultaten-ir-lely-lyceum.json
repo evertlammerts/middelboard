@@ -3,7 +3,8 @@
     "name": "Ir. Lely Lyceum",
     "address": "Ravenswaaipad 3",
     "postalCode": "1106 AW",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1238
   },
   "doorstroom": {
     "onderbouw": {

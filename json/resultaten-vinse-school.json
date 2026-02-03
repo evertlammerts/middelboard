@@ -3,7 +3,8 @@
     "name": "Vinse School",
     "address": "Haarlemmerstraat 132 - 136",
     "postalCode": "1013 EX",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 398
   },
   "doorstroom": {
     "onderbouw": {

@@ -3,7 +3,8 @@
     "name": "HLZ",
     "address": "Brahmsstraat 7",
     "postalCode": "1077 HE",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 960
   },
   "doorstroom": {
     "onderbouw": {

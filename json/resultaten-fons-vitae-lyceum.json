@@ -3,7 +3,8 @@
     "name": "Fons Vitae Lyceum",
     "address": "Reijnier Vinkeleskade 53",
     "postalCode": "1071 SW",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1065
   },
   "doorstroom": {
     "onderbouw": {

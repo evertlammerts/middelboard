@@ -3,7 +3,8 @@
     "name": "Montessori Lyceum Terra Nova",
     "address": "Pampuslaan 1",
     "postalCode": "1087 HP",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 517
   },
   "doorstroom": {
     "onderbouw": {

@@ -3,7 +3,8 @@
     "name": "ALASCA",
     "address": "Geertje Wielemaplein 1",
     "postalCode": "1095 MM",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 723
   },
   "doorstroom": {
     "onderbouw": {

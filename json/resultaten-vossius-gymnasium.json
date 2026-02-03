@@ -3,7 +3,8 @@
     "name": "Vossius Gymnasium",
     "address": "Messchaertstraat 1",
     "postalCode": "1077 WS",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 838
   },
   "doorstroom": {
     "onderbouw": {

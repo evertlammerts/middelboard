@@ -3,7 +3,8 @@
     "name": "Comenius Lyceum Amsterdam",
     "address": "Jacob Geelstraat 38",
     "postalCode": "1065 VT",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 1037
   },
   "doorstroom": {
     "onderbouw": {

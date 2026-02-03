@@ -3,7 +3,8 @@
     "name": "DENISE",
     "address": "Piet Mondriaanstraat 140",
     "postalCode": "1061 TT",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "aantalLeerlingen": 645
   },
   "doorstroom": {
     "onderbouw": {
