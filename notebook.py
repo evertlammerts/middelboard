@@ -529,51 +529,73 @@ Verken alle VWO-scholen op populariteit en kwaliteit. 🔴 = populair (ratio > 1
 
 
 @app.cell
-def _(mo, my_list_state, pl, set_my_list):
+def _(db, pl):
+    # Cache quality data - this only runs once at startup, not on every list change
+    _quality = pl.from_arrow(db.execute("""
+        SELECT
+            s.name,
+            s.aantal_leerlingen,
+            e.centraal_examen as ce,
+            MAX(CASE WHEN t.metric = 'leerlingen' THEN t.cijfer END) as tevr_leerlingen,
+            MAX(CASE WHEN t.metric = 'ouders' THEN t.cijfer END) as tevr_ouders
+        FROM scholen_db.schools s
+        LEFT JOIN (
+            SELECT school_id, centraal_examen,
+                   ROW_NUMBER() OVER (PARTITION BY school_id ORDER BY schooljaar DESC) as rn
+            FROM scholen_db.examencijfers
+        ) e ON s.id = e.school_id AND e.rn = 1
+        LEFT JOIN (
+            SELECT school_id, metric, cijfer,
+                   ROW_NUMBER() OVER (PARTITION BY school_id, metric ORDER BY schooljaar DESC) as rn
+            FROM scholen_db.tevredenheid_trend
+        ) t ON s.id = t.school_id AND t.rn = 1
+        GROUP BY s.name, s.aantal_leerlingen, e.centraal_examen
+    """).fetch_arrow_table())
+    list_quality_lookup = {row['name']: row for row in _quality.to_dicts()}
+    return (list_quality_lookup,)
+
+
+@app.cell
+def _(SCHOOL_MAPPING, list_quality_lookup, mo, my_list_state):
+    # This cell creates the table display - depends on my_list_state but NOT on database
     _current_list = my_list_state()
 
     if not _current_list:
-        list_table = mo.callout("Je lijst is nog leeg. Ga naar 'Scholen Verkenner' om scholen toe te voegen.", kind="info")
-        list_controls = mo.md("")
+        list_table = None
+        list_table_data = []
         list_analysis = mo.md("")
     else:
-        _list_data = []
+
+        # Build table data (no buttons - just data)
+        list_table_data = []
         for _idx, _item in enumerate(_current_list):
             _ratio = _item.get('ratio', 0) or 0
-            _tier = "🔴 Droom" if _ratio > 1.0 else ("🟡 Competitief" if _ratio >= 0.7 else "🟢 Veilig")
-            _list_data.append({
-                "Pos": _idx + 1, "School": _item['school'], "Variant": _item.get('variant', 'Regulier'),
-                "Stadsdeel": _item['stadsdeel'], "Ratio": f"{_ratio:.2f}", "Tier": _tier,
+            _tier = "🔴" if _ratio > 1.0 else ("🟡" if _ratio >= 0.7 else "🟢")
+
+            # Get quality data from cached lookup
+            _school_name = _item['school']
+            _quality_name = SCHOOL_MAPPING.get(_school_name, _school_name)
+            _q = list_quality_lookup.get(_quality_name, {})
+
+            list_table_data.append({
+                "#": _idx + 1,
+                "School": f"{_tier} {_school_name}",
+                "Variant": _item.get('variant', 'Regulier'),
+                "Leerlingen": _q.get('aantal_leerlingen') or "-",
+                "Ratio": f"{_ratio:.2f}",
+                "CE": f"{_q.get('ce'):.1f}" if _q.get('ce') else "-",
+                "Tevr.Leerl": f"{_q.get('tevr_leerlingen'):.1f}" if _q.get('tevr_leerlingen') else "-",
+                "Tevr.Ouders": f"{_q.get('tevr_ouders'):.1f}" if _q.get('tevr_ouders') else "-",
+                "_afdeling_id": _item['afdeling_id'],
             })
-        _list_df = pl.DataFrame(_list_data)
-        list_table = mo.ui.table(_list_df, selection="multi", page_size=12)
 
-        def _move_up():
-            if list_table.value is not None and len(list_table.value) == 1:
-                _pos = list_table.value.to_dicts()[0]['Pos'] - 1
-                if _pos > 0:
-                    _new = list(_current_list)
-                    _new[_pos], _new[_pos-1] = _new[_pos-1], _new[_pos]
-                    set_my_list(_new)
-
-        def _move_down():
-            if list_table.value is not None and len(list_table.value) == 1:
-                _pos = list_table.value.to_dicts()[0]['Pos'] - 1
-                if _pos < len(_current_list) - 1:
-                    _new = list(_current_list)
-                    _new[_pos], _new[_pos+1] = _new[_pos+1], _new[_pos]
-                    set_my_list(_new)
-
-        def _remove():
-            if list_table.value is not None and len(list_table.value) > 0:
-                _positions = {r['Pos'] - 1 for r in list_table.value.to_dicts()}
-                set_my_list([item for i, item in enumerate(_current_list) if i not in _positions])
-
-        list_controls = mo.hstack([
-            mo.ui.button(label="⬆️ Omhoog", on_click=lambda _: _move_up()),
-            mo.ui.button(label="⬇️ Omlaag", on_click=lambda _: _move_down()),
-            mo.ui.button(label="🗑️ Verwijderen", on_click=lambda _: _remove()),
-        ], gap=1)
+        list_table = mo.ui.table(
+            list_table_data,
+            selection="single",
+            page_size=12,
+            show_column_summaries=False,
+            label="Selecteer een school om te verplaatsen of verwijderen"
+        )
 
         _dream = sum(1 for item in _current_list if (item.get('ratio') or 0) > 1.0)
         _comp = sum(1 for item in _current_list if 0.7 <= (item.get('ratio') or 0) <= 1.0)
@@ -588,15 +610,92 @@ def _(mo, my_list_state, pl, set_my_list):
             mo.md(f"**Samenstelling:** 🔴 Droom: {_dream} | 🟡 Competitief: {_comp} | 🟢 Veilig: {_safe}"),
             _risk,
         ])
-    return list_analysis, list_controls, list_table
+    return list_analysis, list_table, list_table_data
 
 
 @app.cell
-def _(list_analysis, list_controls, list_table, mo):
+def _(list_table, mo, my_list_state, set_my_list):
+    # Create action buttons - these just trigger state changes
+    # The list display is in a SEPARATE cell so it will re-render
+    def _move_up(_):
+        if list_table is None or not list_table.value:
+            return
+        _sel = list_table.value[0]
+        _afd_id = _sel.get('_afdeling_id')
+        if _afd_id:
+            _current = list(my_list_state())
+            _idx = next((i for i, item in enumerate(_current) if item['afdeling_id'] == _afd_id), -1)
+            if _idx > 0:
+                _current[_idx], _current[_idx-1] = _current[_idx-1], _current[_idx]
+                set_my_list(_current)
+
+    def _move_down(_):
+        if list_table is None or not list_table.value:
+            return
+        _sel = list_table.value[0]
+        _afd_id = _sel.get('_afdeling_id')
+        if _afd_id:
+            _current = list(my_list_state())
+            _idx = next((i for i, item in enumerate(_current) if item['afdeling_id'] == _afd_id), -1)
+            if _idx >= 0 and _idx < len(_current) - 1:
+                _current[_idx], _current[_idx+1] = _current[_idx+1], _current[_idx]
+                set_my_list(_current)
+
+    def _remove(_):
+        if list_table is None or not list_table.value:
+            return
+        _sel = list_table.value[0]
+        _afd_id = _sel.get('_afdeling_id')
+        if _afd_id:
+            _current = list(my_list_state())
+            _current = [item for item in _current if item['afdeling_id'] != _afd_id]
+            set_my_list(_current)
+
+    # Create buttons (no display logic here - just the buttons)
+    list_btn_up = mo.ui.button(label="▲ Omhoog", on_click=_move_up)
+    list_btn_down = mo.ui.button(label="▼ Omlaag", on_click=_move_down)
+    list_btn_remove = mo.ui.button(label="🗑 Verwijderen", on_click=_remove, kind="danger")
+    return list_btn_down, list_btn_remove, list_btn_up
+
+
+@app.cell
+def _(list_btn_down, list_btn_remove, list_btn_up, list_table, list_table_data, mo):
+    # Display the action buttons with proper disabled states
+    # This cell depends on list_table (for selection state) but NOT on my_list_state
+    _has_selection = list_table is not None and list_table.value and len(list_table.value) > 0
+    _sel_idx = None
+    _list_len = len(list_table_data) if list_table_data else 0
+
+    if _has_selection:
+        _sel_afd = list_table.value[0]['_afdeling_id']
+        _sel_idx = next((i for i, d in enumerate(list_table_data) if d['_afdeling_id'] == _sel_afd), None)
+
+    # Show enabled buttons only when selection is valid
+    _up_disabled = not _has_selection or _sel_idx == 0 or _sel_idx is None
+    _down_disabled = not _has_selection or _sel_idx is None or _sel_idx >= _list_len - 1
+    _remove_disabled = not _has_selection
+
+    list_action_buttons = mo.hstack([
+        list_btn_up if not _up_disabled else mo.ui.button(label="▲ Omhoog", disabled=True),
+        list_btn_down if not _down_disabled else mo.ui.button(label="▼ Omlaag", disabled=True),
+        list_btn_remove if not _remove_disabled else mo.ui.button(label="🗑 Verwijderen", disabled=True, kind="danger"),
+    ], gap=1)
+    return (list_action_buttons,)
+
+
+@app.cell
+def _(list_action_buttons, list_analysis, list_table, mo, my_list_state):
+    if not my_list_state():
+        _list_display = mo.callout("Je lijst is nog leeg. Ga naar 'Scholen Verkenner' om scholen toe te voegen.", kind="info")
+    else:
+        _list_display = mo.vstack([
+            list_action_buttons,
+            list_table,
+        ])
+
     list_content = mo.vstack([
-        mo.md("## Mijn Voorkeurslijst\n\nBouw je lijst van maximaal 12 scholen. Volgorde is belangrijk!"),
-        list_table,
-        list_controls,
+        mo.md("## Mijn Voorkeurslijst\n\nBouw je lijst van maximaal 12 scholen. Selecteer een school en gebruik de knoppen om te verplaatsen of verwijderen."),
+        _list_display,
         list_analysis,
     ])
     return (list_content,)
@@ -1012,14 +1111,17 @@ def _(
     list_content,
     loting_content,
     mo,
+    my_list_state,
     set_active_tab,
 ):
     _title = mo.md("# Amsterdam VWO Loting Dashboard")
+    _list_count = len(my_list_state())
+    _list_label = f"Mijn Lijst ({_list_count})" if _list_count > 0 else "Mijn Lijst (leeg)"
     _tabs = mo.ui.tabs(
         {
             "Scholen Verkenner": explorer_content,
             "School Details": detail_content,
-            "Mijn Lijst": list_content,
+            _list_label: list_content,
             "Loting": loting_content,
         },
         value=active_tab_state(),
