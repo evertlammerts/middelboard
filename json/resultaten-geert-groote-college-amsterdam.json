@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Geert Groote College Amsterdam"
+    "name": "Geert Groote College Amsterdam",
+    "address": "Fred. Roeskestraat 84",
+    "postalCode": "1076 ED",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

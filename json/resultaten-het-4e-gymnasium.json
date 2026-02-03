@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Het 4e Gymnasium"
+    "name": "Het 4e Gymnasium",
+    "address": "Archangelweg 4",
+    "postalCode": "1013 ZZ",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

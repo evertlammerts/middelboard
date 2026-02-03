@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Metropolis Lyceum"
+    "name": "Metropolis Lyceum",
+    "address": "Meeuwenlaan 132",
+    "postalCode": "1022 AM",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

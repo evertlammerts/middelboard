@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "altair>=6.0.0",
     "duckdb>=1.4.4",
+    "folium>=0.20.0",
     "marimo[sql]>=0.19.7",
     "numpy>=2.4.1",
 ]

@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Vinse School"
+    "name": "Vinse School",
+    "address": "Haarlemmerstraat 132 - 136",
+    "postalCode": "1013 EX",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

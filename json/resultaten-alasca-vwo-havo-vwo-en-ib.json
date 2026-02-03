@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "ALASCA"
+    "name": "ALASCA",
+    "address": "Geertje Wielemaplein 1",
+    "postalCode": "1095 MM",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

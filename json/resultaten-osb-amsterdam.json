@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "OSB Amsterdam"
+    "name": "OSB Amsterdam",
+    "address": "Gulden Kruis 5",
+    "postalCode": "1103 BE",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

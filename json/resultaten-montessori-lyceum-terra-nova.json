@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Montessori Lyceum Terra Nova"
+    "name": "Montessori Lyceum Terra Nova",
+    "address": "Pampuslaan 1",
+    "postalCode": "1087 HP",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

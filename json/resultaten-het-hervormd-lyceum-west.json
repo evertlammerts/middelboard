@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Het Hervormd Lyceum West"
+    "name": "Het Hervormd Lyceum West",
+    "address": "Hemsterhuisstraat 79",
+    "postalCode": "1065 JX",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

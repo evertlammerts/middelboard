@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "HLZ"
+    "name": "HLZ",
+    "address": "Brahmsstraat 7",
+    "postalCode": "1077 HE",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

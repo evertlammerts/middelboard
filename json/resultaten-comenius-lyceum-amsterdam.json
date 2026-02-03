@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Comenius Lyceum Amsterdam"
+    "name": "Comenius Lyceum Amsterdam",
+    "address": "Jacob Geelstraat 38",
+    "postalCode": "1065 VT",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

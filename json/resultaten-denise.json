@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "DENISE"
+    "name": "DENISE",
+    "address": "Piet Mondriaanstraat 140",
+    "postalCode": "1061 TT",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

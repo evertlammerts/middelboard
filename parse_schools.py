@@ -22,18 +22,25 @@ def extract_school_info(content):
     if match:
         info["name"] = match.group(1).strip()
 
-    # Address info from structured data or page content
-    match = re.search(r'"streetAddress"\s*:\s*"([^"]+)"', content)
+    # Address info from span elements
+    # Format: <span class=school-adres>Weteringschans 31</span>
+    match = re.search(r"<span class=school-adres>([^<]+)</span>", content)
     if match:
-        info["address"] = match.group(1)
+        info["address"] = match.group(1).strip()
 
-    match = re.search(r'"postalCode"\s*:\s*"([^"]+)"', content)
+    # Format: <span class=school-postcode-woonplaats>1017 RV Amsterdam</span>
+    match = re.search(r"<span class=school-postcode-woonplaats>([^<]+)</span>", content)
     if match:
-        info["postalCode"] = match.group(1)
-
-    match = re.search(r'"addressLocality"\s*:\s*"([^"]+)"', content)
-    if match:
-        info["city"] = match.group(1)
+        postcode_city = match.group(1).strip()
+        # Split into postal code and city (format: "1017 RV Amsterdam")
+        # Postal code is always 4 digits + 2 letters
+        pc_match = re.match(r"(\d{4}\s*[A-Z]{2})\s+(.*)", postcode_city)
+        if pc_match:
+            info["postalCode"] = pc_match.group(1)
+            info["city"] = pc_match.group(2)
+        else:
+            # Fallback: store the whole string as city
+            info["city"] = postcode_city
 
     return info
 

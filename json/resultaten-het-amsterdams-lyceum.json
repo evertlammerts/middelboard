@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Het Amsterdams Lyceum"
+    "name": "Het Amsterdams Lyceum",
+    "address": "Valeriusplein 15",
+    "postalCode": "1075 BJ",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

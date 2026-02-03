@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Marcanti College"
+    "name": "Marcanti College",
+    "address": "Jan Van Galenstraat 31",
+    "postalCode": "1051 KM",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

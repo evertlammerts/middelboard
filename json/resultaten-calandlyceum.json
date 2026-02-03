@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Calandlyceum"
+    "name": "Calandlyceum",
+    "address": "Pieter Calandlaan 182",
+    "postalCode": "1068 NT",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

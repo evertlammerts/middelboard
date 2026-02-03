@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Sint Ignatiusgymnasium"
+    "name": "Sint Ignatiusgymnasium",
+    "address": "Jan van Eijckstraat 47 &#xA;",
+    "postalCode": "1077 LH",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Barlaeus Gymnasium"
+    "name": "Barlaeus Gymnasium",
+    "address": "Weteringschans 31",
+    "postalCode": "1017 RV",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

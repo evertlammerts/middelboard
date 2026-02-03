@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "St. Nicolaaslyceum"
+    "name": "St. Nicolaaslyceum",
+    "address": "Beethovenplein 2",
+    "postalCode": "1077 WM",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

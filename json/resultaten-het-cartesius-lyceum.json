@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Het Cartesius Lyceum"
+    "name": "Het Cartesius Lyceum",
+    "address": "Frederik Hendrikplantsoen 7A",
+    "postalCode": "1052 XN",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

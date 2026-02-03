@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Hyperion Lyceum"
+    "name": "Hyperion Lyceum",
+    "address": "Badhuiskade 361",
+    "postalCode": "1031 KV",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

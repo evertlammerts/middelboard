@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Fons Vitae Lyceum"
+    "name": "Fons Vitae Lyceum",
+    "address": "Reijnier Vinkeleskade 53",
+    "postalCode": "1071 SW",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

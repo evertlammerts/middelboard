@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Montessori Lyceum Amsterdam - Hoofdlocatie"
+    "name": "Montessori Lyceum Amsterdam - Hoofdlocatie",
+    "address": "Pieter De Hoochstraat 59",
+    "postalCode": "1071 ED",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {

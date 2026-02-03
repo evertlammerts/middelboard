@@ -1,6 +1,9 @@
 {
   "school": {
-    "name": "Damstede Lyceum"
+    "name": "Damstede Lyceum",
+    "address": "Rode Kruisstraat 83",
+    "postalCode": "1025 KM",
+    "city": "Amsterdam"
   },
   "doorstroom": {
     "onderbouw": {
