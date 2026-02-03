@@ -103,11 +103,28 @@ def _(mo):
     def _save_hidden(hidden_set):
         _hidden_file.write_text(json.dumps(list(hidden_set)))
 
-    _initial_hidden = _load_hidden()
+    # File for persisting my list
+    _my_list_file = Path("my_list.json")
 
-    my_list_state, set_my_list = mo.state([])
+    # Load my list from file
+    def _load_my_list():
+        if _my_list_file.exists():
+            try:
+                return json.loads(_my_list_file.read_text())
+            except (json.JSONDecodeError, TypeError):
+                return []
+        return []
+
+    # Save my list to file
+    def _save_my_list(my_list):
+        _my_list_file.write_text(json.dumps(my_list))
+
+    _initial_hidden = _load_hidden()
+    _initial_my_list = _load_my_list()
+
+    my_list_state, _set_my_list_raw = mo.state(_initial_my_list)
     selected_school_state, set_selected_school = mo.state(None)  # (afdeling_id, school_name)
-    active_tab_state, set_active_tab = mo.state("Overzicht")
+    active_tab_state, set_active_tab = mo.state("Scholen Verkenner")
     hidden_schools_state, _set_hidden_schools_raw = mo.state(_initial_hidden)
     show_hidden_state, set_show_hidden = mo.state(False)
 
@@ -115,6 +132,11 @@ def _(mo):
     def set_hidden_schools(new_hidden):
         _save_hidden(new_hidden)
         _set_hidden_schools_raw(new_hidden)
+
+    # Wrapper to also persist when setting my list
+    def set_my_list(new_list):
+        _save_my_list(new_list)
+        _set_my_list_raw(new_list)
 
     return (
         active_tab_state, hidden_schools_state, my_list_state, selected_school_state,
@@ -124,7 +146,7 @@ def _(mo):
 
 @app.cell
 def _(db, mo, pl):
-    # Fetch current year stats only for overview
+    # Fetch current year stats for loting tab
     _latest_stats = pl.from_arrow(db.execute("""
         SELECT totaal_deelnemers, totaal_capaciteit, percentage_eerste_voorkeur, percentage_top3
         FROM loting_db.jaar_samenvatting
@@ -133,7 +155,7 @@ def _(db, mo, pl):
 
     _latest = _latest_stats.to_dicts()[0] if not _latest_stats.is_empty() else {}
 
-    _overview_stats = mo.hstack([
+    loting_2025_stats = mo.hstack([
         mo.stat(
             value=f"{_latest.get('percentage_eerste_voorkeur', 0):.1f}%",
             label="Eerste voorkeur",
@@ -159,32 +181,7 @@ def _(db, mo, pl):
             bordered=True,
         ),
     ], justify="start", gap=2)
-
-    overview_content = mo.vstack([
-        mo.md("""
-    ## Welkom
-
-    Dit dashboard helpt je bij het samenstellen van je voorkeurslijst voor de **Centrale Loting & Matching** van Amsterdamse VWO-scholen.
-
-    **Gebruik de tabs hieronder om:**
-    - Scholen te verkennen op populariteit en kwaliteit
-    - Gedetailleerde schoolinformatie te bekijken
-    - Je voorkeurslijst samen te stellen
-
-    ---
-
-    ### Hoe werkt de loting?
-
-    1. Elke leerling krijgt een **willekeurig lotnummer**
-    2. Leerlingen worden op volgorde verwerkt
-    3. Je wordt geplaatst op de **hoogst gerankte school** met plek
-
-    **Tips:** Zet droomscholen bovenaan, vul alle 12 slots, neem "veilige" scholen op (ratio < 1.0).
-        """),
-        mo.md("### Loting 2025"),
-        _overview_stats,
-    ])
-    return (overview_content,)
+    return (loting_2025_stats,)
 
 
 @app.cell
@@ -849,9 +846,25 @@ def _(SCHOOL_MAPPING, db, detail_school_options, mo, pl, school_dropdown, select
 
 
 @app.cell
-def _(mo):
-    strategy_content = mo.vstack([
+def _(loting_2025_stats, mo, stats_historical_content):
+    loting_content = mo.vstack([
         mo.md("""
+    ## Hoe werkt de loting?
+
+    Bij de Centrale Loting & Matching van Amsterdamse VWO-scholen:
+
+    1. Elke leerling krijgt een **willekeurig lotnummer**
+    2. Leerlingen worden op volgorde verwerkt
+    3. Je wordt geplaatst op de **hoogst gerankte school** met plek
+
+    ---
+
+    ### Loting 2025
+        """),
+        loting_2025_stats,
+        mo.md("""
+    ---
+
     ## Strategisch Advies
 
     ### Tips voor een goede voorkeurslijst
@@ -875,9 +888,12 @@ def _(mo):
     - **Ratio > 1.0** 🔴 = Meer aanmeldingen dan plekken (loting)
     - **Ratio 0.7-1.0** 🟡 = Competitief maar haalbaar
     - **Ratio < 0.7** 🟢 = Grote kans op plaatsing
+
+    ---
         """),
+        stats_historical_content,
     ])
-    return (strategy_content,)
+    return (loting_content,)
 
 
 @app.cell
@@ -943,11 +959,7 @@ def _(alt, db, mo, pl):
             school,
             stadsdeel,
             MAX(CASE WHEN jaar = 2023 THEN capaciteit END) as cap_2023,
-            MAX(CASE WHEN jaar = 2023 THEN eerste_voorkeur END) as ev_2023,
-            MAX(CASE WHEN jaar = 2023 THEN ratio END) as ratio_2023,
             MAX(CASE WHEN jaar = 2024 THEN capaciteit END) as cap_2024,
-            MAX(CASE WHEN jaar = 2024 THEN eerste_voorkeur END) as ev_2024,
-            MAX(CASE WHEN jaar = 2024 THEN ratio END) as ratio_2024,
             MAX(CASE WHEN jaar = 2025 THEN capaciteit END) as cap_2025,
             MAX(CASE WHEN jaar = 2025 THEN eerste_voorkeur END) as ev_2025,
             MAX(CASE WHEN jaar = 2025 THEN ratio END) as ratio_2025
@@ -956,9 +968,9 @@ def _(alt, db, mo, pl):
         ORDER BY school
     """).fetch_arrow_table())
 
-    stats_content = mo.vstack([
+    stats_historical_content = mo.vstack([
         mo.md("""
-    ## Statistieken
+    ## Historische Statistieken
 
     ### Lotingresultaten per jaar
     Hoeveel leerlingen worden bij hun eerste voorkeur of top-3 keuze geplaatst?
@@ -983,17 +995,13 @@ def _(alt, db, mo, pl):
             'school': 'School',
             'stadsdeel': 'Stadsdeel',
             'cap_2023': 'Cap 23',
-            'ev_2023': 'EV 23',
-            'ratio_2023': 'Ratio 23',
             'cap_2024': 'Cap 24',
-            'ev_2024': 'EV 24',
-            'ratio_2024': 'Ratio 24',
             'cap_2025': 'Cap 25',
             'ev_2025': 'EV 25',
             'ratio_2025': 'Ratio 25',
         }), page_size=20),
     ])
-    return (stats_content,)
+    return (stats_historical_content,)
 
 
 @app.cell
@@ -1002,21 +1010,17 @@ def _(
     detail_content,
     explorer_content,
     list_content,
+    loting_content,
     mo,
-    overview_content,
     set_active_tab,
-    stats_content,
-    strategy_content,
 ):
     _title = mo.md("# Amsterdam VWO Loting Dashboard")
     _tabs = mo.ui.tabs(
         {
-            "Overzicht": overview_content,
             "Scholen Verkenner": explorer_content,
             "School Details": detail_content,
             "Mijn Lijst": list_content,
-            "Statistieken": stats_content,
-            "Strategie": strategy_content,
+            "Loting": loting_content,
         },
         value=active_tab_state(),
         on_change=set_active_tab,
