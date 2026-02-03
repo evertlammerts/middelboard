@@ -362,12 +362,15 @@ def _(
             "_is_hidden": _is_hidden,
         })
 
-    # For the table display, we need to use the buttons directly
+    # For the table display, filter out internal columns (starting with _)
+    _visible_columns = ["School", "Capaciteit", "1e Voorkeur", "Ratio", "Eindcijfer", "CE", "Slaag%", "Leerl.", "Ouders", "Sfeer", "Veilig", "In Lijst"]
+    _display_list = [{k: v for k, v in row.items() if k in _visible_columns} for row in schools_list]
+
     explorer_table = mo.ui.table(
-        schools_list,
+        _display_list,
         selection="multi", page_size=15, label="Selecteer scholen om toe te voegen",
         show_column_summaries=False,
-    ) if schools_list else mo.md("*Geen scholen gevonden*")
+    ) if _display_list else mo.md("*Geen scholen gevonden*")
 
     # Count hidden schools
     hidden_count = len(_hidden)
@@ -397,8 +400,12 @@ def _(SCHOOL_COORDS, mo, my_list_state, schools_list):
 
 @app.cell
 def _(explorer_table, hidden_schools_state, mo, my_list_state, schools_list, set_hidden_schools, set_my_list, show_hidden_state):
-    # Create lookup by afdeling_id for quick access
-    _schools_by_id = {s['_afdeling_id']: s for s in schools_list}
+    # Create lookup by School button id for matching selections to full data
+    _schools_by_button_id = {id(s['School']): s for s in schools_list}
+
+    def _get_full_row(sel):
+        """Look up full row data from schools_list by matching the School button."""
+        return _schools_by_button_id.get(id(sel['School']))
 
     def _add_selected():
         if explorer_table.value is None or len(explorer_table.value) == 0:
@@ -407,9 +414,11 @@ def _(explorer_table, hidden_schools_state, mo, my_list_state, schools_list, set
         if len(_current) >= 12:
             return
         for _sel in explorer_table.value:
-            _afdeling_id = _sel['_afdeling_id']
-            _row = _schools_by_id.get(_afdeling_id)
-            if _row and not any(item['afdeling_id'] == _afdeling_id for item in _current):
+            _row = _get_full_row(_sel)
+            if not _row:
+                continue
+            _afdeling_id = _row['_afdeling_id']
+            if not any(item['afdeling_id'] == _afdeling_id for item in _current):
                 _current.append({
                     'afdeling_id': _afdeling_id,
                     'school': _row['_school_name'],
@@ -426,7 +435,9 @@ def _(explorer_table, hidden_schools_state, mo, my_list_state, schools_list, set
             return
         _hidden = set(hidden_schools_state())
         for _sel in explorer_table.value:
-            _hidden.add(_sel['_afdeling_id'])
+            _row = _get_full_row(_sel)
+            if _row:
+                _hidden.add(_row['_afdeling_id'])
         set_hidden_schools(_hidden)
 
     def _unhide_selected():
@@ -434,7 +445,9 @@ def _(explorer_table, hidden_schools_state, mo, my_list_state, schools_list, set
             return
         _hidden = set(hidden_schools_state())
         for _sel in explorer_table.value:
-            _hidden.discard(_sel['_afdeling_id'])
+            _row = _get_full_row(_sel)
+            if _row:
+                _hidden.discard(_row['_afdeling_id'])
         set_hidden_schools(_hidden)
 
     add_button = mo.ui.button(
@@ -494,8 +507,8 @@ Verken alle VWO-scholen op populariteit en kwaliteit. 🔴 = populair (ratio > 1
 **Kwaliteitskolommen:** CE en Slaag% tonen landelijk gemiddelde tussen haakjes. Tevredenheid: Leerl./Ouders/Sfeer/Veilig (schaal 1-10)."""),
         mo.hstack([stadsdeel_filter, type_filter, ratio_filter], gap=2),
         mo.hstack([add_button, visibility_button, show_hidden_checkbox, list_status], gap=2),
-        explorer_map,
         explorer_table,
+        explorer_map,
     ])
     return (explorer_content,)
 
@@ -666,16 +679,29 @@ def _(SCHOOL_MAPPING, db, detail_school_options, mo, pl, school_dropdown, select
                 mo.stat(value=f"{_ratio:.2f}", label="Populariteit", bordered=True),
             ], gap=2))
 
-            # Preference breakdown
+            # Preference breakdown with placements
             _ev1 = _info.get('eerste_voorkeur') or 0
             _ev2 = _info.get('tweede_voorkeur') or 0
             _ev3 = _info.get('derde_voorkeur') or 0
+
+            # Get placement data per preference position
+            _plaatsingen = pl.from_arrow(db.execute(f"""
+                SELECT voorkeur_positie, aantal
+                FROM loting_db.plaatsing_per_voorkeur
+                WHERE afdeling_id = {_selected_id} AND jaar = 2025
+                ORDER BY voorkeur_positie
+            """).fetch_arrow_table())
+            _plaatsing_dict = {row['voorkeur_positie']: row['aantal'] for row in _plaatsingen.to_dicts()}
+            _pl1 = _plaatsing_dict.get(1, 0)
+            _pl2 = _plaatsing_dict.get(2, 0)
+            _pl3 = _plaatsing_dict.get(3, 0)
+
             _sections.append(mo.md("#### Voorkeuren verdeling"))
-            _sections.append(mo.md("*Hoeveel leerlingen hadden deze school op welke positie in hun voorkeurslijst?*"))
+            _sections.append(mo.md("*Hoeveel leerlingen hadden deze school op welke positie, en hoeveel daarvan werden geplaatst?*"))
             _sections.append(mo.hstack([
-                mo.stat(value=str(_ev1), label="1e Voorkeur", bordered=True),
-                mo.stat(value=str(_ev2), label="2e Voorkeur", bordered=True),
-                mo.stat(value=str(_ev3), label="3e Voorkeur", bordered=True),
+                mo.stat(value=str(_ev1), label="1e Voorkeur", caption=f"{_pl1} geplaatst", bordered=True),
+                mo.stat(value=str(_ev2), label="2e Voorkeur", caption=f"{_pl2} geplaatst", bordered=True),
+                mo.stat(value=str(_ev3), label="3e Voorkeur", caption=f"{_pl3} geplaatst", bordered=True),
             ], gap=2))
 
         # Get exam results
@@ -783,8 +809,15 @@ def _(SCHOOL_MAPPING, db, detail_school_options, mo, pl, school_dropdown, select
             if _stats:
                 _sections.append(mo.md("---"))
                 _sections.append(mo.md("### Oordeel Inspectie"))
-                _sections.append(mo.md("*Hoe presteren leerlingen t.o.v. verwachting? Waarde boven de norm is positief.*"))
+                _sections.append(mo.md("*Waarde boven de norm is positief.*"))
                 _sections.append(mo.hstack(_stats, gap=2))
+                _sections.append(mo.md("""
+**Onderwijspositie:** Vergelijkt de positie van leerlingen in leerjaar 3 met hun basisschooladvies. Scoren leerlingen op of boven hun geadviseerde niveau?
+
+**Onderbouwsnelheid:** Percentage leerlingen dat zonder vertraging door leerjaar 1 en 2 komt (geen zittenblijven).
+
+**Bovenbouwsucces:** Meet doorstroom in de bovenbouw: weinig zittenblijvers, opstroom naar hoger niveau, en slagingspercentage.
+"""))
 
         if not _sections:
             _sections.append(mo.callout("Geen data beschikbaar voor deze school", kind="warn"))

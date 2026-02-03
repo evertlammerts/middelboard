@@ -1,0 +1,506 @@
+[
+  {
+    "school": "Alasca",
+    "niveau": "vwo",
+    "capaciteit_2024": 56,
+    "capaciteit_2025": 57,
+    "verschil": 1
+  },
+  {
+    "school": "Alasca",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 56,
+    "capaciteit_2025": 57,
+    "verschil": 1
+  },
+  {
+    "school": "AB Noorderlicht",
+    "niveau": "v.a. vmbo-b",
+    "capaciteit_2024": 140,
+    "capaciteit_2025": 150,
+    "verschil": 10
+  },
+  {
+    "school": "Bredero",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 125,
+    "capaciteit_2025": 150,
+    "verschil": 25
+  },
+  {
+    "school": "Bredero Mavo - Tweetalig",
+    "niveau": "v.a. vmbo-t",
+    "capaciteit_2024": 48,
+    "capaciteit_2025": 0,
+    "verschil": -48
+  },
+  {
+    "school": "Calandlyceum",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 168,
+    "capaciteit_2025": 96,
+    "verschil": -72
+  },
+  {
+    "school": "Calandlyceum",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 56,
+    "capaciteit_2025": 72,
+    "verschil": 16
+  },
+  {
+    "school": "Calandlyceum",
+    "niveau": "vwo",
+    "capaciteit_2024": 28,
+    "capaciteit_2025": 24,
+    "verschil": -4
+  },
+  {
+    "school": "Calandlyceum - Technasium",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 56,
+    "capaciteit_2025": 24,
+    "verschil": -32
+  },
+  {
+    "school": "Cartesius Amsterdam - Het Lyceum",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 134,
+    "capaciteit_2025": 128,
+    "verschil": -6
+  },
+  {
+    "school": "Cartesius Amsterdam - De Plaats",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 15,
+    "capaciteit_2025": 25,
+    "verschil": 10
+  },
+  {
+    "school": "Cartesius Amsterdam - De Plaats",
+    "niveau": "vwo",
+    "capaciteit_2024": 15,
+    "capaciteit_2025": 25,
+    "verschil": 10
+  },
+  {
+    "school": "College De Meer",
+    "niveau": "v.a. vmbo-b",
+    "capaciteit_2024": 90,
+    "capaciteit_2025": 95,
+    "verschil": 5
+  },
+  {
+    "school": "College De Meer - Havo potentie",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 18,
+    "capaciteit_2025": 20,
+    "verschil": 2
+  },
+  {
+    "school": "College De Meer",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 42,
+    "capaciteit_2025": 35,
+    "verschil": -7
+  },
+  {
+    "school": "College ZUYD",
+    "niveau": "v.a. vmbo-k",
+    "capaciteit_2024": 40,
+    "capaciteit_2025": 48,
+    "verschil": 8
+  },
+  {
+    "school": "Comenius Lyceum Amsterdam",
+    "niveau": "vwo",
+    "capaciteit_2024": 84,
+    "capaciteit_2025": 78,
+    "verschil": -6
+  },
+  {
+    "school": "Comenius Lyceum Amsterdam",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 104,
+    "capaciteit_2025": 78,
+    "verschil": -26
+  },
+  {
+    "school": "CSB",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 82,
+    "capaciteit_2025": 63,
+    "verschil": -19
+  },
+  {
+    "school": "CSB",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 100,
+    "capaciteit_2025": 119,
+    "verschil": 19
+  },
+  {
+    "school": "Cygnus gymnasium",
+    "niveau": "vwo",
+    "capaciteit_2024": 172,
+    "capaciteit_2025": 140,
+    "verschil": -32
+  },
+  {
+    "school": "Fiducie College",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 75,
+    "verschil": 75
+  },
+  {
+    "school": "Fiducie College",
+    "niveau": "havo",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 50,
+    "verschil": 50
+  },
+  {
+    "school": "Futuris",
+    "niveau": "v.a. vmbo-b",
+    "capaciteit_2024": 200,
+    "capaciteit_2025": 50,
+    "verschil": -150
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 135,
+    "capaciteit_2025": 110,
+    "verschil": -25
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 100,
+    "capaciteit_2025": 70,
+    "verschil": -30
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "niveau": "vwo",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 30,
+    "verschil": 30
+  },
+  {
+    "school": "Hervormd Lyceum West - Digi Tech/TTO",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 90,
+    "verschil": 90
+  },
+  {
+    "school": "Hervormd Lyceum West - Tweetalig",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 26,
+    "capaciteit_2025": 0,
+    "verschil": -26
+  },
+  {
+    "school": "Hervormd Lyceum West - Tweetalig",
+    "niveau": "vwo",
+    "capaciteit_2024": 25,
+    "capaciteit_2025": 0,
+    "verschil": -25
+  },
+  {
+    "school": "Het 4e Gymnasium",
+    "niveau": "vwo",
+    "capaciteit_2024": 140,
+    "capaciteit_2025": 173,
+    "verschil": 33
+  },
+  {
+    "school": "Het Amsterdams Lyceum",
+    "niveau": "vwo",
+    "capaciteit_2024": 172,
+    "capaciteit_2025": 192,
+    "verschil": 20
+  },
+  {
+    "school": "HLZ (Hervormd Lyceum Zuid)",
+    "niveau": "vwo",
+    "capaciteit_2024": 56,
+    "capaciteit_2025": 58,
+    "verschil": 2
+  },
+  {
+    "school": "HLZ (Hervormd Lyceum Zuid)",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 112,
+    "capaciteit_2025": 116,
+    "verschil": 4
+  },
+  {
+    "school": "Hubertus & Berkhoff",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 35,
+    "capaciteit_2025": 55,
+    "verschil": 20
+  },
+  {
+    "school": "Hubertus & Berkhoff",
+    "niveau": "v.a. vmbo-b",
+    "capaciteit_2024": 100,
+    "capaciteit_2025": 80,
+    "verschil": -20
+  },
+  {
+    "school": "Hyperion Lyceum",
+    "niveau": "vwo",
+    "capaciteit_2024": 145,
+    "capaciteit_2025": 150,
+    "verschil": 5
+  },
+  {
+    "school": "Ir. Lely Lyceum",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 46,
+    "capaciteit_2025": 92,
+    "verschil": 46
+  },
+  {
+    "school": "Ir. Lely Lyceum",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 41,
+    "capaciteit_2025": 83,
+    "verschil": 42
+  },
+  {
+    "school": "Ir. Lely Lyceum",
+    "niveau": "vwo",
+    "capaciteit_2024": 24,
+    "capaciteit_2025": 50,
+    "verschil": 26
+  },
+  {
+    "school": "Ir. Lely Lyceum - TTO / Gymnasium / regulier",
+    "niveau": "vwo",
+    "capaciteit_2024": 27,
+    "capaciteit_2025": 0,
+    "verschil": -27
+  },
+  {
+    "school": "Ir. Lely Lyceum - TTO / regulier",
+    "niveau": "v.a. vmbo-t",
+    "capaciteit_2024": 51,
+    "capaciteit_2025": 0,
+    "verschil": -51
+  },
+  {
+    "school": "Ir. Lely Lyceum - TTO / regulier",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 46,
+    "capaciteit_2025": 0,
+    "verschil": -46
+  },
+  {
+    "school": "IVKO",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 37,
+    "capaciteit_2025": 44,
+    "verschil": 7
+  },
+  {
+    "school": "IVKO - DAMU",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 1,
+    "capaciteit_2025": 4,
+    "verschil": 3
+  },
+  {
+    "school": "Kairos Tienercollege",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 18,
+    "verschil": 18
+  },
+  {
+    "school": "Kairos Tienercollege",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 19,
+    "verschil": 19
+  },
+  {
+    "school": "Kairos Tienercollege",
+    "niveau": "vwo",
+    "capaciteit_2024": 0,
+    "capaciteit_2025": 19,
+    "verschil": 19
+  },
+  {
+    "school": "Lumion",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 124,
+    "capaciteit_2025": 140,
+    "verschil": 16
+  },
+  {
+    "school": "Lumion",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 121,
+    "capaciteit_2025": 112,
+    "verschil": -9
+  },
+  {
+    "school": "Lumion",
+    "niveau": "vwo",
+    "capaciteit_2024": 23,
+    "capaciteit_2025": 28,
+    "verschil": 5
+  },
+  {
+    "school": "Mediacollege Amsterdam",
+    "niveau": "v.a. vmbo-b",
+    "capaciteit_2024": 27,
+    "capaciteit_2025": 22,
+    "verschil": -5
+  },
+  {
+    "school": "Mediacollege Amsterdam",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 20,
+    "capaciteit_2025": 24,
+    "verschil": 4
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 52,
+    "capaciteit_2025": 54,
+    "verschil": 2
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 81,
+    "capaciteit_2025": 56,
+    "verschil": -25
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam",
+    "niveau": "vwo",
+    "capaciteit_2024": 57,
+    "capaciteit_2025": 58,
+    "verschil": 1
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam - Gymnasium",
+    "niveau": "vwo",
+    "capaciteit_2024": 28,
+    "capaciteit_2025": 58,
+    "verschil": 30
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 40,
+    "capaciteit_2025": 35,
+    "verschil": -5
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 28,
+    "capaciteit_2025": 49,
+    "verschil": 21
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "niveau": "vwo",
+    "capaciteit_2024": 94,
+    "capaciteit_2025": 55,
+    "verschil": -39
+  },
+  {
+    "school": "Pieter Nieuwland College",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 154,
+    "capaciteit_2025": 116,
+    "verschil": -38
+  },
+  {
+    "school": "Pieter Nieuwland College",
+    "niveau": "vwo",
+    "capaciteit_2024": 42,
+    "capaciteit_2025": 58,
+    "verschil": 16
+  },
+  {
+    "school": "Pieter Nieuwland College - Plus",
+    "niveau": "vwo",
+    "capaciteit_2024": 7,
+    "capaciteit_2025": 29,
+    "verschil": 22
+  },
+  {
+    "school": "Spinoza Lyceum - Gymnasium",
+    "niveau": "vwo",
+    "capaciteit_2024": 58,
+    "capaciteit_2025": 60,
+    "verschil": 2
+  },
+  {
+    "school": "Spinoza Lyceum",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 65,
+    "capaciteit_2025": 68,
+    "verschil": 3
+  },
+  {
+    "school": "Sweelinck College",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 124,
+    "capaciteit_2025": 126,
+    "verschil": 2
+  },
+  {
+    "school": "TASC",
+    "niveau": "vmbo-g-t",
+    "capaciteit_2024": 20,
+    "capaciteit_2025": 30,
+    "verschil": 10
+  },
+  {
+    "school": "Vinse School",
+    "niveau": "vwo",
+    "capaciteit_2024": 11,
+    "capaciteit_2025": 12,
+    "verschil": 1
+  },
+  {
+    "school": "Vossius Gymnasium",
+    "niveau": "vwo",
+    "capaciteit_2024": 170,
+    "capaciteit_2025": 140,
+    "verschil": -30
+  },
+  {
+    "school": "Xplore",
+    "niveau": "v.a. havo",
+    "capaciteit_2024": 28,
+    "capaciteit_2025": 30,
+    "verschil": 2
+  },
+  {
+    "school": "Xplore",
+    "niveau": "v.a. vmbo-g-t",
+    "capaciteit_2024": 26,
+    "capaciteit_2025": 25,
+    "verschil": -1
+  },
+  {
+    "school": "Xplore",
+    "niveau": "vwo",
+    "capaciteit_2024": 16,
+    "capaciteit_2025": 25,
+    "verschil": 9
+  }
+]

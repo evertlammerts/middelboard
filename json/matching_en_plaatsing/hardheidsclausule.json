@@ -1,0 +1,137 @@
+[
+  {
+    "afdeling": "Alasca - vwo 1 1,8%  Hyperion Lyceum - vwo",
+    "aantal": 2,
+    "percentage_capaciteit": 1.3
+  },
+  {
+    "afdeling": "Alasca - v.a. havo 1 1,8%  Ignatiusgymnasium - vwo",
+    "aantal": 2,
+    "percentage_capaciteit": 1.4
+  },
+  {
+    "afdeling": "Barlaeus Gymnasium - vwo 1 0,7%  Ir. Lely Lyceum - v.a. havo",
+    "aantal": 1,
+    "percentage_capaciteit": 1.1
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - v.a. vmbo-g-t 2 2,8%  IVKO - v.a. havo",
+    "aantal": 2,
+    "percentage_capaciteit": 4.5
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - vwo 1 1,8%  Kairos Tienercollege - v.a. vmbo-g-t",
+    "aantal": 2,
+    "percentage_capaciteit": 11.1
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - v.a. havo 1 1,2%  Kairos Tienercollege - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 5.3
+  },
+  {
+    "afdeling": "Bredero - v.a. vmbo-g-t 1 0,7%  Lumion - v.a. vmbo-g-t",
+    "aantal": 4,
+    "percentage_capaciteit": 2.8
+  },
+  {
+    "afdeling": "Calandlyceum - v.a. havo 2 2,8%  Lumion - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 2.6
+  },
+  {
+    "afdeling": "College ZUYD - vmbo-g-t 1 5,6%  Mediacollege Amsterdam - v.a. vmbo-b",
+    "aantal": 2,
+    "percentage_capaciteit": 9.1
+  },
+  {
+    "afdeling": "Comenius Lyceum Amsterdam - v.a. havo 1 1,2%  Mediacollege Amsterdam - v.a. vmbo-k",
+    "aantal": 1,
+    "percentage_capaciteit": 2.4
+  },
+  {
+    "afdeling": "CSB - v.a. havo 2 1,7%  Montessori Lyceum Pax - v.a. vmbo-g-t",
+    "aantal": 1,
+    "percentage_capaciteit": 2.9
+  },
+  {
+    "afdeling": "CSB - v.a. vmbo-g-t 1 1,3%  OSB - v.a. havo",
+    "aantal": 1,
+    "percentage_capaciteit": 1.5
+  },
+  {
+    "afdeling": "Cygnus gymnasium - vwo 3 1,8%  OSB - v.a. vmbo-g-t",
+    "aantal": 1,
+    "percentage_capaciteit": 0.6
+  },
+  {
+    "afdeling": "De Amsterdamse MAVO - v.a. vmbo-g-t 1 1,4%  OSB - v.a. vmbo-k",
+    "aantal": 1,
+    "percentage_capaciteit": 1.4
+  },
+  {
+    "afdeling": "DENISE - v.a. vmbo-g-t 2 66,7%  Pieter Nieuwland College - v.a. havo",
+    "aantal": 1,
+    "percentage_capaciteit": 0.7
+  },
+  {
+    "afdeling": "Fons Vitae Lyceum - v.a. havo 2 2,4%  Spinoza Lyceum - v.a. havo",
+    "aantal": 5,
+    "percentage_capaciteit": 7.4
+  },
+  {
+    "afdeling": "Futuris - v.a. vmbo-b 1 2,0%  Spinoza Lyceum - v.a. vmbo-g-t",
+    "aantal": 2,
+    "percentage_capaciteit": 3.7
+  },
+  {
+    "afdeling": "Geert Groote College - v.a. havo 1 1,7%  Spinoza Lyceum - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 3.6
+  },
+  {
+    "afdeling": "Geert Groote College - v.a. vmbo-g-t 1 1,8%  Spinoza20first - v.a. vmbo-g-t",
+    "aantal": 2,
+    "percentage_capaciteit": 1.1
+  },
+  {
+    "afdeling": "Geert Groote College - vwo 1 1,7%  St. Nicolaaslyceum - Tweetalig Onderwijs - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 1.8
+  },
+  {
+    "afdeling": "Gerrit van der Veen College - v.a. havo 3 5,5%  St. Nicolaaslyceum - v.a. havo",
+    "aantal": 3,
+    "percentage_capaciteit": 3.6
+  },
+  {
+    "afdeling": "Havo de Hof - v.a. havo 2 2,4%  St. Nicolaaslyceum - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 1.8
+  },
+  {
+    "afdeling": "Het 4e Gymnasium - vwo 5 2,9%  Vinse School - v.a. havo",
+    "aantal": 1,
+    "percentage_capaciteit": 3.1
+  },
+  {
+    "afdeling": "Het Amsterdams Lyceum - vwo 5 2,6%  Vinse School - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 8.3
+  },
+  {
+    "afdeling": "HLZ (Hervormd Lyceum Zuid) - v.a. havo 2 1,7%  Vossius Gymnasium - vwo",
+    "aantal": 1,
+    "percentage_capaciteit": 0.6
+  },
+  {
+    "afdeling": "HLZ (Hervormd Lyceum Zuid) - vwo 2 3,4%  Xplore - v.a. vmbo-g-t",
+    "aantal": 1,
+    "percentage_capaciteit": 3.2
+  },
+  {
+    "afdeling": "Hubertus & Berkhoff - v.a. vmbo-g-t 1 2,9%  Yuverta VMBO Amsterdam Oost - v.a. vmbo-b",
+    "aantal": 2,
+    "percentage_capaciteit": 5.3
+  }
+]

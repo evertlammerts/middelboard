@@ -1,0 +1,839 @@
+[
+  {
+    "school": "Alasca",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 56,
+      "2021": 56,
+      "2022": 56,
+      "2023": 84,
+      "2024": 56,
+      "2025": 57
+    },
+    "voorkeuren_2025": {
+      "eerste": 28,
+      "tweede": 30,
+      "derde": 38
+    },
+    "geplaatst": {
+      "2020": 56,
+      "2021": 58,
+      "2022": 58,
+      "2023": 84,
+      "2024": 58,
+      "2025": 57
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 28,
+      "tweede": 14,
+      "derde": 6,
+      "vierde_plus": 9
+    }
+  },
+  {
+    "school": "Berlage Lyceum - tto",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 56,
+      "2021": 56,
+      "2022": 56,
+      "2023": 56,
+      "2024": 28,
+      "2025": 56
+    },
+    "voorkeuren_2025": {
+      "eerste": 18,
+      "tweede": 32,
+      "derde": 41
+    },
+    "geplaatst": {
+      "2020": 56,
+      "2021": 58,
+      "2022": 58,
+      "2023": 32,
+      "2024": 29,
+      "2025": 50
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 19,
+      "tweede": 9,
+      "derde": 5,
+      "vierde_plus": 17
+    }
+  },
+  {
+    "school": "Cartesius Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": 15,
+      "2025": 25
+    },
+    "voorkeuren_2025": {
+      "eerste": 1,
+      "tweede": 4,
+      "derde": 5
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": 3,
+      "2025": 1
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 1,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Het Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 84,
+      "2021": 56,
+      "2022": 56,
+      "2023": 56,
+      "2024": 40,
+      "2025": 40
+    },
+    "voorkeuren_2025": {
+      "eerste": 21,
+      "tweede": 26,
+      "derde": 32
+    },
+    "geplaatst": {
+      "2020": 48,
+      "2021": 45,
+      "2022": 42,
+      "2023": 39,
+      "2024": 25,
+      "2025": 30
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 21,
+      "tweede": 5,
+      "derde": 2,
+      "vierde_plus": 2
+    }
+  },
+  {
+    "school": "Comenius Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 26,
+      "2021": 22,
+      "2022": 52,
+      "2023": 78,
+      "2024": 84,
+      "2025": 71
+    },
+    "voorkeuren_2025": {
+      "eerste": 66,
+      "tweede": 45,
+      "derde": 22
+    },
+    "geplaatst": {
+      "2020": 22,
+      "2021": 20,
+      "2022": 44,
+      "2023": 78,
+      "2024": 84,
+      "2025": 71
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 66,
+      "tweede": 1,
+      "derde": 3,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": 40,
+      "2023": 40,
+      "2024": 40,
+      "2025": 40
+    },
+    "voorkeuren_2025": {
+      "eerste": 15,
+      "tweede": 4,
+      "derde": 7
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": 6,
+      "2023": 9,
+      "2024": 9,
+      "2025": 16
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 15,
+      "tweede": 1,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Damstede Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 64,
+      "2021": 32,
+      "2022": 56,
+      "2023": 56,
+      "2024": 56,
+      "2025": 56
+    },
+    "voorkeuren_2025": {
+      "eerste": 10,
+      "tweede": 11,
+      "derde": 3
+    },
+    "geplaatst": {
+      "2020": 26,
+      "2021": 21,
+      "2022": 36,
+      "2023": 28,
+      "2024": 25,
+      "2025": 14
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 10,
+      "tweede": 3,
+      "derde": 0,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "DENISE",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": 6,
+      "2023": 2,
+      "2024": 4,
+      "2025": 4
+    },
+    "voorkeuren_2025": {
+      "eerste": 2,
+      "tweede": 3,
+      "derde": 2
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": 5,
+      "2023": 2,
+      "2024": 4,
+      "2025": 3
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 2,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "Fons Vitae Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 84,
+      "2021": 84,
+      "2022": 84,
+      "2023": 84,
+      "2024": 84,
+      "2025": 84
+    },
+    "voorkeuren_2025": {
+      "eerste": 110,
+      "tweede": 160,
+      "derde": 207
+    },
+    "geplaatst": {
+      "2020": 84,
+      "2021": 87,
+      "2022": 87,
+      "2023": 87,
+      "2024": 87,
+      "2025": 87
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 62,
+      "tweede": 18,
+      "derde": 6,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "Geert Groote College",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 41,
+      "2021": 56,
+      "2022": 56,
+      "2023": 56,
+      "2024": 58,
+      "2025": 58
+    },
+    "voorkeuren_2025": {
+      "eerste": 22,
+      "tweede": 23,
+      "derde": 17
+    },
+    "geplaatst": {
+      "2020": 28,
+      "2021": 58,
+      "2022": 58,
+      "2023": 56,
+      "2024": 60,
+      "2025": 47
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 22,
+      "tweede": 7,
+      "derde": 2,
+      "vierde_plus": 16
+    }
+  },
+  {
+    "school": "College",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 29,
+      "2021": 29,
+      "2022": 45,
+      "2023": 76,
+      "2024": 55,
+      "2025": 55
+    },
+    "voorkeuren_2025": {
+      "eerste": 33,
+      "tweede": 52,
+      "derde": 46
+    },
+    "geplaatst": {
+      "2020": 29,
+      "2021": 30,
+      "2022": 47,
+      "2023": 67,
+      "2024": 57,
+      "2025": 57
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 31,
+      "tweede": 11,
+      "derde": 3,
+      "vierde_plus": 12
+    }
+  },
+  {
+    "school": "Hervormd Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 28,
+      "2021": 28,
+      "2022": 28,
+      "2023": 28,
+      "2024": 56,
+      "2025": 58
+    },
+    "voorkeuren_2025": {
+      "eerste": 21,
+      "tweede": 43,
+      "derde": 68
+    },
+    "geplaatst": {
+      "2020": 28,
+      "2021": 29,
+      "2022": 29,
+      "2023": 29,
+      "2024": 58,
+      "2025": 60
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 19,
+      "tweede": 13,
+      "derde": 10,
+      "vierde_plus": 18
+    }
+  },
+  {
+    "school": "Lumion",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 43,
+      "2021": 56,
+      "2022": 78,
+      "2023": 56,
+      "2024": 23,
+      "2025": 38
+    },
+    "voorkeuren_2025": {
+      "eerste": 36,
+      "tweede": 22,
+      "derde": 24
+    },
+    "geplaatst": {
+      "2020": 43,
+      "2021": 52,
+      "2022": 72,
+      "2023": 56,
+      "2024": 24,
+      "2025": 38
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 35,
+      "tweede": 2,
+      "derde": 0,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "Marcanti College",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 15,
+      "2021": 15,
+      "2022": 15,
+      "2023": 5,
+      "2024": 15,
+      "2025": 15
+    },
+    "voorkeuren_2025": {
+      "eerste": 2,
+      "tweede": 4,
+      "derde": 1
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 0,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Lyceum - Coderclass",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 26,
+      "2021": 54,
+      "2022": 56,
+      "2023": 52,
+      "2024": 54,
+      "2025": 54
+    },
+    "voorkeuren_2025": {
+      "eerste": 77,
+      "tweede": 81,
+      "derde": 78
+    },
+    "geplaatst": {
+      "2020": 54,
+      "2021": 58,
+      "2022": 58,
+      "2023": 54,
+      "2024": 56,
+      "2025": 56
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 50,
+      "tweede": 3,
+      "derde": 3,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Lyceum - Technasium",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 27,
+      "2021": 28,
+      "2022": 28,
+      "2023": 26,
+      "2024": 27,
+      "2025": 27
+    },
+    "voorkeuren_2025": {
+      "eerste": 92,
+      "tweede": 107,
+      "derde": 91
+    },
+    "geplaatst": {
+      "2020": 29,
+      "2021": null,
+      "2022": 29,
+      "2023": 27,
+      "2024": 28,
+      "2025": 27
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 24,
+      "tweede": 3,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Metropolis Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": 40,
+      "2024": 30,
+      "2025": 30
+    },
+    "voorkeuren_2025": {
+      "eerste": 9,
+      "tweede": 9,
+      "derde": 8
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": 10,
+      "2024": 17,
+      "2025": 12
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 9,
+      "tweede": 1,
+      "derde": 1,
+      "vierde_plus": 1
+    }
+  },
+  {
+    "school": "Gymnasium",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 52,
+      "2021": 52,
+      "2022": 54,
+      "2023": 27,
+      "2024": 28,
+      "2025": 29
+    },
+    "voorkeuren_2025": {
+      "eerste": 10,
+      "tweede": 21,
+      "derde": 20
+    },
+    "geplaatst": {
+      "2020": 52,
+      "2021": 53,
+      "2022": 49,
+      "2023": 27,
+      "2024": 26,
+      "2025": 29
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 10,
+      "tweede": 3,
+      "derde": 3,
+      "vierde_plus": 13
+    }
+  },
+  {
+    "school": "Montessori Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 52,
+      "2021": 50,
+      "2022": 54,
+      "2023": 58,
+      "2024": 57,
+      "2025": 87
+    },
+    "voorkeuren_2025": {
+      "eerste": 34,
+      "tweede": 55,
+      "derde": 58
+    },
+    "geplaatst": {
+      "2020": 52,
+      "2021": 52,
+      "2022": 56,
+      "2023": 59,
+      "2024": 59,
+      "2025": 87
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 31,
+      "tweede": 22,
+      "derde": 13,
+      "vierde_plus": 21
+    }
+  },
+  {
+    "school": "Montessori Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 50,
+      "2021": null,
+      "2022": 28,
+      "2023": 28,
+      "2024": 30,
+      "2025": 30
+    },
+    "voorkeuren_2025": {
+      "eerste": 5,
+      "tweede": 1,
+      "derde": 4
+    },
+    "geplaatst": {
+      "2020": 4,
+      "2021": null,
+      "2022": 3,
+      "2023": 6,
+      "2024": 3,
+      "2025": 5
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 5,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "OSB",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 20,
+      "2021": 20,
+      "2022": 20,
+      "2023": 25,
+      "2024": 15,
+      "2025": 15
+    },
+    "voorkeuren_2025": {
+      "eerste": 11,
+      "tweede": 12,
+      "derde": 9
+    },
+    "geplaatst": {
+      "2020": 9,
+      "2021": 8,
+      "2022": 18,
+      "2023": 12,
+      "2024": 5,
+      "2025": 12
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 11,
+      "tweede": 0,
+      "derde": 1,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "College",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 29,
+      "2021": 33,
+      "2022": 48,
+      "2023": 58,
+      "2024": 42,
+      "2025": 68
+    },
+    "voorkeuren_2025": {
+      "eerste": 36,
+      "tweede": 27,
+      "derde": 33
+    },
+    "geplaatst": {
+      "2020": 29,
+      "2021": 27,
+      "2022": 39,
+      "2023": 33,
+      "2024": 40,
+      "2025": 55
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 36,
+      "tweede": 8,
+      "derde": 5,
+      "vierde_plus": 6
+    }
+  },
+  {
+    "school": "Spinoza Lyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 29,
+      "2021": 29,
+      "2022": 29,
+      "2023": 28,
+      "2024": 28,
+      "2025": 28
+    },
+    "voorkeuren_2025": {
+      "eerste": 70,
+      "tweede": 78,
+      "derde": 116
+    },
+    "geplaatst": {
+      "2020": 30,
+      "2021": 30,
+      "2022": 30,
+      "2023": 29,
+      "2024": 29,
+      "2025": 29
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 23,
+      "tweede": 6,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "St. Nicolaaslyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 84,
+      "2021": 56,
+      "2022": 56,
+      "2023": 56,
+      "2024": 56,
+      "2025": 56
+    },
+    "voorkeuren_2025": {
+      "eerste": 57,
+      "tweede": 54,
+      "derde": 59
+    },
+    "geplaatst": {
+      "2020": 85,
+      "2021": 58,
+      "2022": 58,
+      "2023": 58,
+      "2024": 58,
+      "2025": 57
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 52,
+      "tweede": 5,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "St. Nicolaaslyceum",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": 28,
+      "2021": 56,
+      "2022": 56,
+      "2023": 56,
+      "2024": 56,
+      "2025": 56
+    },
+    "voorkeuren_2025": {
+      "eerste": 211,
+      "tweede": 196,
+      "derde": 183
+    },
+    "geplaatst": {
+      "2020": 28,
+      "2021": 58,
+      "2022": 58,
+      "2023": 58,
+      "2024": 58,
+      "2025": 58
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 58,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Vinse School",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": 11,
+      "2025": 12
+    },
+    "voorkeuren_2025": {
+      "eerste": 26,
+      "tweede": 20,
+      "derde": 25
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": 12,
+      "2025": 12
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 12,
+      "tweede": 0,
+      "derde": 0,
+      "vierde_plus": 0
+    }
+  },
+  {
+    "school": "Xplore",
+    "niveau": "vwo",
+    "capaciteit": {
+      "2020": null,
+      "2021": null,
+      "2022": 20,
+      "2023": 14,
+      "2024": 16,
+      "2025": 21
+    },
+    "voorkeuren_2025": {
+      "eerste": 12,
+      "tweede": 4,
+      "derde": 5
+    },
+    "geplaatst": {
+      "2020": null,
+      "2021": null,
+      "2022": 20,
+      "2023": 14,
+      "2024": 11,
+      "2025": 16
+    },
+    "geplaatst_naar_voorkeur_2025": {
+      "eerste": 12,
+      "tweede": 1,
+      "derde": 1,
+      "vierde_plus": 2
+    }
+  }
+]

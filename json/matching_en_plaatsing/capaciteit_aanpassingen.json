@@ -1,0 +1,170 @@
+[
+  {
+    "school": "Berlage Lyceum - Tweetalig",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 28,
+    "definitieve_capaciteit": 56
+  },
+  {
+    "school": "College ZUYD",
+    "niveau": "v.a. vmbo-b",
+    "voorlopige_capaciteit": 36,
+    "definitieve_capaciteit": 42
+  },
+  {
+    "school": "College ZUYD",
+    "niveau": "vmbo-g-t",
+    "voorlopige_capaciteit": 24,
+    "definitieve_capaciteit": 18
+  },
+  {
+    "school": "Comenius Lyceum Amsterdam",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 78,
+    "definitieve_capaciteit": 71
+  },
+  {
+    "school": "Comenius Lyceum Amsterdam",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 78,
+    "definitieve_capaciteit": 85
+  },
+  {
+    "school": "CSB",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 63,
+    "definitieve_capaciteit": 79
+  },
+  {
+    "school": "Cygnus gymnasium",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 140,
+    "definitieve_capaciteit": 168
+  },
+  {
+    "school": "De Amsterdamse MAVO",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 71,
+    "definitieve_capaciteit": 72
+  },
+  {
+    "school": "DENISE",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 8,
+    "definitieve_capaciteit": 14
+  },
+  {
+    "school": "Geert Groote College",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 56,
+    "definitieve_capaciteit": 58
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 110,
+    "definitieve_capaciteit": 123
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 70,
+    "definitieve_capaciteit": 74
+  },
+  {
+    "school": "Hubertus & Berkhoff",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 55,
+    "definitieve_capaciteit": 35
+  },
+  {
+    "school": "Hubertus & Berkhoff",
+    "niveau": "v.a. vmbo-b",
+    "voorlopige_capaciteit": 80,
+    "definitieve_capaciteit": 100
+  },
+  {
+    "school": "Lumion",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 140,
+    "definitieve_capaciteit": 142
+  },
+  {
+    "school": "Lumion",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 28,
+    "definitieve_capaciteit": 38
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 58,
+    "definitieve_capaciteit": 87
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam - Gymnasium",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 58,
+    "definitieve_capaciteit": 29
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 49,
+    "definitieve_capaciteit": 102
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 55,
+    "definitieve_capaciteit": 30
+  },
+  {
+    "school": "Pieter Nieuwland College",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 116,
+    "definitieve_capaciteit": 152
+  },
+  {
+    "school": "Pieter Nieuwland College",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 58,
+    "definitieve_capaciteit": 68
+  },
+  {
+    "school": "Pieter Nieuwland College - Plus",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 29,
+    "definitieve_capaciteit": 11
+  },
+  {
+    "school": "VONK",
+    "niveau": "v.a. vmbo-b",
+    "voorlopige_capaciteit": 92,
+    "definitieve_capaciteit": 100
+  },
+  {
+    "school": "Vossius Gymnasium",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 140,
+    "definitieve_capaciteit": 168
+  },
+  {
+    "school": "Xplore",
+    "niveau": "v.a. havo",
+    "voorlopige_capaciteit": 30,
+    "definitieve_capaciteit": 44
+  },
+  {
+    "school": "Xplore",
+    "niveau": "v.a. vmbo-g-t",
+    "voorlopige_capaciteit": 25,
+    "definitieve_capaciteit": 31
+  },
+  {
+    "school": "Xplore",
+    "niveau": "vwo",
+    "voorlopige_capaciteit": 25,
+    "definitieve_capaciteit": 21
+  }
+]

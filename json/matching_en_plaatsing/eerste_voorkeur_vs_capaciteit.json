@@ -1,0 +1,392 @@
+[
+  {
+    "school": "St. Nicolaaslyceum",
+    "capaciteit": 224,
+    "eerste_voorkeur": 620,
+    "percentage": 277
+  },
+  {
+    "school": "Metis Montessori Lyceum",
+    "capaciteit": 162,
+    "eerste_voorkeur": 403,
+    "percentage": 249
+  },
+  {
+    "school": "Vinse School",
+    "capaciteit": 68,
+    "eerste_voorkeur": 142,
+    "percentage": 209
+  },
+  {
+    "school": "Barlaeus Gymnasium",
+    "capaciteit": 140,
+    "eerste_voorkeur": 254,
+    "percentage": 181
+  },
+  {
+    "school": "Comenius Lyceum Amsterdam",
+    "capaciteit": 200,
+    "eerste_voorkeur": 347,
+    "percentage": 174
+  },
+  {
+    "school": "Fons Vitae Lyceum",
+    "capaciteit": 168,
+    "eerste_voorkeur": 266,
+    "percentage": 158
+  },
+  {
+    "school": "Spinoza Lyceum",
+    "capaciteit": 229,
+    "eerste_voorkeur": 352,
+    "percentage": 154
+  },
+  {
+    "school": "IVKO",
+    "capaciteit": 106,
+    "eerste_voorkeur": 160,
+    "percentage": 151
+  },
+  {
+    "school": "Kairos Tienercollege",
+    "capaciteit": 56,
+    "eerste_voorkeur": 83,
+    "percentage": 148
+  },
+  {
+    "school": "Het Amsterdams Lyceum",
+    "capaciteit": 192,
+    "eerste_voorkeur": 273,
+    "percentage": 142
+  },
+  {
+    "school": "Ignatiusgymnasium",
+    "capaciteit": 140,
+    "eerste_voorkeur": 164,
+    "percentage": 117
+  },
+  {
+    "school": "Hyperion Lyceum",
+    "capaciteit": 150,
+    "eerste_voorkeur": 175,
+    "percentage": 117
+  },
+  {
+    "school": "VONK",
+    "capaciteit": 100,
+    "eerste_voorkeur": 104,
+    "percentage": 104
+  },
+  {
+    "school": "DENISE",
+    "capaciteit": 21,
+    "eerste_voorkeur": 21,
+    "percentage": 100
+  },
+  {
+    "school": "Calvijn College",
+    "capaciteit": 145,
+    "eerste_voorkeur": 141,
+    "percentage": 97
+  },
+  {
+    "school": "Gerrit van der Veen College",
+    "capaciteit": 146,
+    "eerste_voorkeur": 140,
+    "percentage": 96
+  },
+  {
+    "school": "College ZUYD",
+    "capaciteit": 130,
+    "eerste_voorkeur": 119,
+    "percentage": 92
+  },
+  {
+    "school": "Cygnus gymnasium",
+    "capaciteit": 168,
+    "eerste_voorkeur": 152,
+    "percentage": 90
+  },
+  {
+    "school": "Futuris",
+    "capaciteit": 50,
+    "eerste_voorkeur": 44,
+    "percentage": 88
+  },
+  {
+    "school": "Lumion",
+    "capaciteit": 292,
+    "eerste_voorkeur": 230,
+    "percentage": 79
+  },
+  {
+    "school": "Kiem Montessori",
+    "capaciteit": 75,
+    "eerste_voorkeur": 58,
+    "percentage": 77
+  },
+  {
+    "school": "Xplore",
+    "capaciteit": 96,
+    "eerste_voorkeur": 74,
+    "percentage": 77
+  },
+  {
+    "school": "OSB",
+    "capaciteit": 336,
+    "eerste_voorkeur": 255,
+    "percentage": 76
+  },
+  {
+    "school": "Huygens College",
+    "capaciteit": 110,
+    "eerste_voorkeur": 83,
+    "percentage": 75
+  },
+  {
+    "school": "Montessori Lyceum Amsterdam",
+    "capaciteit": 226,
+    "eerste_voorkeur": 163,
+    "percentage": 72
+  },
+  {
+    "school": "De Amsterdamse MAVO",
+    "capaciteit": 72,
+    "eerste_voorkeur": 50,
+    "percentage": 69
+  },
+  {
+    "school": "Spinoza20first",
+    "capaciteit": 180,
+    "eerste_voorkeur": 125,
+    "percentage": 69
+  },
+  {
+    "school": "Geert Groote College",
+    "capaciteit": 172,
+    "eerste_voorkeur": 116,
+    "percentage": 67
+  },
+  {
+    "school": "Hubertus & Berkhoff",
+    "capaciteit": 155,
+    "eerste_voorkeur": 102,
+    "percentage": 66
+  },
+  {
+    "school": "Ir. Lely Lyceum",
+    "capaciteit": 225,
+    "eerste_voorkeur": 147,
+    "percentage": 65
+  },
+  {
+    "school": "Alasca",
+    "capaciteit": 114,
+    "eerste_voorkeur": 74,
+    "percentage": 65
+  },
+  {
+    "school": "Montessori Lyceum Pax",
+    "capaciteit": 167,
+    "eerste_voorkeur": 108,
+    "percentage": 65
+  },
+  {
+    "school": "Joodse Scholengemeenschap Maimonides",
+    "capaciteit": 56,
+    "eerste_voorkeur": 36,
+    "percentage": 64
+  },
+  {
+    "school": "Havo de Hof",
+    "capaciteit": 84,
+    "eerste_voorkeur": 53,
+    "percentage": 63
+  },
+  {
+    "school": "College De Meer",
+    "capaciteit": 150,
+    "eerste_voorkeur": 93,
+    "percentage": 62
+  },
+  {
+    "school": "Pieter Nieuwland College",
+    "capaciteit": 231,
+    "eerste_voorkeur": 142,
+    "percentage": 61
+  },
+  {
+    "school": "Amsterdams Beroepscollege Noorderlicht",
+    "capaciteit": 150,
+    "eerste_voorkeur": 86,
+    "percentage": 57
+  },
+  {
+    "school": "Vossius Gymnasium",
+    "capaciteit": 168,
+    "eerste_voorkeur": 95,
+    "percentage": 57
+  },
+  {
+    "school": "Cburg College",
+    "capaciteit": 100,
+    "eerste_voorkeur": 55,
+    "percentage": 55
+  },
+  {
+    "school": "Hervormd Lyceum West",
+    "capaciteit": 317,
+    "eerste_voorkeur": 174,
+    "percentage": 55
+  },
+  {
+    "school": "Berlage Lyceum - Tweetalig",
+    "capaciteit": 240,
+    "eerste_voorkeur": 129,
+    "percentage": 54
+  },
+  {
+    "school": "Mediacollege Amsterdam",
+    "capaciteit": 88,
+    "eerste_voorkeur": 47,
+    "percentage": 53
+  },
+  {
+    "school": "Bredero",
+    "capaciteit": 150,
+    "eerste_voorkeur": 79,
+    "percentage": 53
+  },
+  {
+    "school": "Metropolis Lyceum",
+    "capaciteit": 180,
+    "eerste_voorkeur": 93,
+    "percentage": 52
+  },
+  {
+    "school": "Het 4e Gymnasium",
+    "capaciteit": 173,
+    "eerste_voorkeur": 88,
+    "percentage": 51
+  },
+  {
+    "school": "HLZ (Hervormd Lyceum Zuid)",
+    "capaciteit": 174,
+    "eerste_voorkeur": 81,
+    "percentage": 47
+  },
+  {
+    "school": "Marcanti College",
+    "capaciteit": 207,
+    "eerste_voorkeur": 90,
+    "percentage": 43
+  },
+  {
+    "school": "CSB",
+    "capaciteit": 198,
+    "eerste_voorkeur": 85,
+    "percentage": 43
+  },
+  {
+    "school": "Calandlyceum",
+    "capaciteit": 264,
+    "eerste_voorkeur": 107,
+    "percentage": 41
+  },
+  {
+    "school": "Montessori Lyceum Oostpoort",
+    "capaciteit": 170,
+    "eerste_voorkeur": 64,
+    "percentage": 38
+  },
+  {
+    "school": "Yuverta VMBO Amsterdam Oost",
+    "capaciteit": 38,
+    "eerste_voorkeur": 14,
+    "percentage": 37
+  },
+  {
+    "school": "Cornelius Haga Lyceum",
+    "capaciteit": 200,
+    "eerste_voorkeur": 72,
+    "percentage": 36
+  },
+  {
+    "school": "Over-Y",
+    "capaciteit": 154,
+    "eerste_voorkeur": 54,
+    "percentage": 35
+  },
+  {
+    "school": "Mundus College",
+    "capaciteit": 144,
+    "eerste_voorkeur": 50,
+    "percentage": 35
+  },
+  {
+    "school": "TASC",
+    "capaciteit": 90,
+    "eerste_voorkeur": 31,
+    "percentage": 34
+  },
+  {
+    "school": "Cartesius Amsterdam",
+    "capaciteit": 218,
+    "eerste_voorkeur": 66,
+    "percentage": 30
+  },
+  {
+    "school": "Damstede",
+    "capaciteit": 168,
+    "eerste_voorkeur": 50,
+    "percentage": 30
+  },
+  {
+    "school": "Sweelinck College",
+    "capaciteit": 126,
+    "eerste_voorkeur": 33,
+    "percentage": 26
+  },
+  {
+    "school": "Montessori Lyceum T erra Nova",
+    "capaciteit": 254,
+    "eerste_voorkeur": 58,
+    "percentage": 23
+  },
+  {
+    "school": "Fiducie College",
+    "capaciteit": 125,
+    "eerste_voorkeur": 22,
+    "percentage": 18
+  },
+  {
+    "school": "Yuverta VMBO Amsterdam West",
+    "capaciteit": 165,
+    "eerste_voorkeur": 27,
+    "percentage": 16
+  },
+  {
+    "school": "Bindelmeer College",
+    "capaciteit": 120,
+    "eerste_voorkeur": 17,
+    "percentage": 14
+  },
+  {
+    "school": "Bernard Nieuwentijt College (Monnickendam)",
+    "capaciteit": 100,
+    "eerste_voorkeur": 14,
+    "percentage": 14
+  },
+  {
+    "school": "Spring High",
+    "capaciteit": 70,
+    "eerste_voorkeur": 3,
+    "percentage": 4
+  },
+  {
+    "school": "0 50 100 150",
+    "capaciteit": 200,
+    "eerste_voorkeur": 250,
+    "percentage": 300
+  }
+]

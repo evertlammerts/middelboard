@@ -1,0 +1,842 @@
+[
+  {
+    "afdeling": "Calandlyceum - vwo",
+    "eerste_voorkeur_2024": 2,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 500
+  },
+  {
+    "afdeling": "IVKO - DAMU - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 1,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 500
+  },
+  {
+    "afdeling": "Xplore - v.a. havo",
+    "eerste_voorkeur_2024": 13,
+    "eerste_voorkeur_2025": 32,
+    "verschil_percentage": 246
+  },
+  {
+    "afdeling": "OSB - vwo",
+    "eerste_voorkeur_2024": 5,
+    "eerste_voorkeur_2025": 11,
+    "verschil_percentage": 220
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - vwo",
+    "eerste_voorkeur_2024": 9,
+    "eerste_voorkeur_2025": 18,
+    "verschil_percentage": 200
+  },
+  {
+    "afdeling": "Lumion - vwo",
+    "eerste_voorkeur_2024": 18,
+    "eerste_voorkeur_2025": 36,
+    "verschil_percentage": 200
+  },
+  {
+    "afdeling": "Pieter Nieuwland College - Plus - vwo",
+    "eerste_voorkeur_2024": 3,
+    "eerste_voorkeur_2025": 6,
+    "verschil_percentage": 200
+  },
+  {
+    "afdeling": "OSB - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 45,
+    "eerste_voorkeur_2025": 79,
+    "verschil_percentage": 176
+  },
+  {
+    "afdeling": "Montessori Lyceum Amsterdam - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 28,
+    "eerste_voorkeur_2025": 49,
+    "verschil_percentage": 175
+  },
+  {
+    "afdeling": "Bernard Nieuwentijt College (Monnickendam) - v.a. havo",
+    "eerste_voorkeur_2024": 3,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 167
+  },
+  {
+    "afdeling": "Cornelius Haga Lyceum - vwo",
+    "eerste_voorkeur_2024": 9,
+    "eerste_voorkeur_2025": 15,
+    "verschil_percentage": 167
+  },
+  {
+    "afdeling": "Montessori Lyceum Terra Nova - vwo",
+    "eerste_voorkeur_2024": 3,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 167
+  },
+  {
+    "afdeling": "Mundus College - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 12,
+    "eerste_voorkeur_2025": 19,
+    "verschil_percentage": 158
+  },
+  {
+    "afdeling": "Vinse School - v.a. havo",
+    "eerste_voorkeur_2024": 42,
+    "eerste_voorkeur_2025": 65,
+    "verschil_percentage": 155
+  },
+  {
+    "afdeling": "Joodse Scholengemeenschap Maimonides - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 24,
+    "eerste_voorkeur_2025": 36,
+    "verschil_percentage": 150
+  },
+  {
+    "afdeling": "Metropolis Lyceum - vwo",
+    "eerste_voorkeur_2024": 6,
+    "eerste_voorkeur_2025": 9,
+    "verschil_percentage": 150
+  },
+  {
+    "afdeling": "Pieter Nieuwland College - vwo",
+    "eerste_voorkeur_2024": 24,
+    "eerste_voorkeur_2025": 36,
+    "verschil_percentage": 150
+  },
+  {
+    "afdeling": "Xplore - vwo",
+    "eerste_voorkeur_2024": 8,
+    "eerste_voorkeur_2025": 12,
+    "verschil_percentage": 150
+  },
+  {
+    "afdeling": "Calandlyceum - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 36,
+    "eerste_voorkeur_2025": 53,
+    "verschil_percentage": 147
+  },
+  {
+    "afdeling": "St. Nicolaaslyceum - Tweetalig Onderwijs - v.a. havo",
+    "eerste_voorkeur_2024": 49,
+    "eerste_voorkeur_2025": 71,
+    "verschil_percentage": 145
+  },
+  {
+    "afdeling": "Montessori Lyceum Amsterdam - Gymnasium - vwo",
+    "eerste_voorkeur_2024": 7,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 143
+  },
+  {
+    "afdeling": "Spinoza Lyceum - vwo",
+    "eerste_voorkeur_2024": 49,
+    "eerste_voorkeur_2025": 70,
+    "verschil_percentage": 143
+  },
+  {
+    "afdeling": "College ZUYD - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 33,
+    "eerste_voorkeur_2025": 47,
+    "verschil_percentage": 142
+  },
+  {
+    "afdeling": "Cartesius Amsterdam - Het Lyceum - vwo",
+    "eerste_voorkeur_2024": 15,
+    "eerste_voorkeur_2025": 21,
+    "verschil_percentage": 140
+  },
+  {
+    "afdeling": "Montessori Lyceum Pax - v.a. havo",
+    "eerste_voorkeur_2024": 31,
+    "eerste_voorkeur_2025": 43,
+    "verschil_percentage": 139
+  },
+  {
+    "afdeling": "Het Amsterdams Lyceum - vwo",
+    "eerste_voorkeur_2024": 198,
+    "eerste_voorkeur_2025": 273,
+    "verschil_percentage": 138
+  },
+  {
+    "afdeling": "College De Meer - Havo potentie - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 8,
+    "eerste_voorkeur_2025": 11,
+    "verschil_percentage": 138
+  },
+  {
+    "afdeling": "Sweelinck College - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 24,
+    "eerste_voorkeur_2025": 33,
+    "verschil_percentage": 138
+  },
+  {
+    "afdeling": "DENISE - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 11,
+    "eerste_voorkeur_2025": 15,
+    "verschil_percentage": 136
+  },
+  {
+    "afdeling": "College ZUYD - vmbo-g-t",
+    "eerste_voorkeur_2024": 9,
+    "eerste_voorkeur_2025": 12,
+    "verschil_percentage": 133
+  },
+  {
+    "afdeling": "Cornelius Haga Lyceum - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 31,
+    "eerste_voorkeur_2025": 41,
+    "verschil_percentage": 132
+  },
+  {
+    "afdeling": "Mundus College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 22,
+    "eerste_voorkeur_2025": 29,
+    "verschil_percentage": 132
+  },
+  {
+    "afdeling": "Ignatiusgymnasium - vwo",
+    "eerste_voorkeur_2024": 125,
+    "eerste_voorkeur_2025": 164,
+    "verschil_percentage": 131
+  },
+  {
+    "afdeling": "Vinse School - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 39,
+    "eerste_voorkeur_2025": 51,
+    "verschil_percentage": 131
+  },
+  {
+    "afdeling": "College ZUYD - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 31,
+    "eerste_voorkeur_2025": 40,
+    "verschil_percentage": 129
+  },
+  {
+    "afdeling": "Montessori Lyceum Pax - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 38,
+    "eerste_voorkeur_2025": 49,
+    "verschil_percentage": 129
+  },
+  {
+    "afdeling": "Bernard Nieuwentijt College (Monnickendam) - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 7,
+    "eerste_voorkeur_2025": 9,
+    "verschil_percentage": 129
+  },
+  {
+    "afdeling": "TASC - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 14,
+    "eerste_voorkeur_2025": 18,
+    "verschil_percentage": 129
+  },
+  {
+    "afdeling": "St. Nicolaaslyceum - vwo",
+    "eerste_voorkeur_2024": 165,
+    "eerste_voorkeur_2025": 211,
+    "verschil_percentage": 128
+  },
+  {
+    "afdeling": "College De Meer - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 55,
+    "eerste_voorkeur_2025": 70,
+    "verschil_percentage": 127
+  },
+  {
+    "afdeling": "Montessori Lyceum Terra Nova - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 19,
+    "eerste_voorkeur_2025": 24,
+    "verschil_percentage": 126
+  },
+  {
+    "afdeling": "Lumion - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 96,
+    "eerste_voorkeur_2025": 120,
+    "verschil_percentage": 125
+  },
+  {
+    "afdeling": "Pieter Nieuwland College - v.a. havo",
+    "eerste_voorkeur_2024": 80,
+    "eerste_voorkeur_2025": 100,
+    "verschil_percentage": 125
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - My World Class - v.a. havo",
+    "eerste_voorkeur_2024": 13,
+    "eerste_voorkeur_2025": 16,
+    "verschil_percentage": 123
+  },
+  {
+    "afdeling": "Gerrit van der Veen College - v.a. havo",
+    "eerste_voorkeur_2024": 68,
+    "eerste_voorkeur_2025": 82,
+    "verschil_percentage": 121
+  },
+  {
+    "afdeling": "Fons Vitae Lyceum - v.a. havo",
+    "eerste_voorkeur_2024": 130,
+    "eerste_voorkeur_2025": 156,
+    "verschil_percentage": 120
+  },
+  {
+    "afdeling": "Cygnus gymnasium - vwo",
+    "eerste_voorkeur_2024": 128,
+    "eerste_voorkeur_2025": 152,
+    "verschil_percentage": 119
+  },
+  {
+    "afdeling": "VONK - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 89,
+    "eerste_voorkeur_2025": 104,
+    "verschil_percentage": 117
+  },
+  {
+    "afdeling": "Calvijn College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 121,
+    "eerste_voorkeur_2025": 141,
+    "verschil_percentage": 117
+  },
+  {
+    "afdeling": "Marcanti College - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 44,
+    "eerste_voorkeur_2025": 51,
+    "verschil_percentage": 116
+  },
+  {
+    "afdeling": "Montessori Lyceum Amsterdam - v.a. havo",
+    "eerste_voorkeur_2024": 61,
+    "eerste_voorkeur_2025": 70,
+    "verschil_percentage": 115
+  },
+  {
+    "afdeling": "Montessori Lyceum Pax - vwo",
+    "eerste_voorkeur_2024": 14,
+    "eerste_voorkeur_2025": 16,
+    "verschil_percentage": 114
+  },
+  {
+    "afdeling": "TASC - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 7,
+    "eerste_voorkeur_2025": 8,
+    "verschil_percentage": 114
+  },
+  {
+    "afdeling": "Montessori Lyceum Amsterdam - vwo",
+    "eerste_voorkeur_2024": 30,
+    "eerste_voorkeur_2025": 34,
+    "verschil_percentage": 113
+  },
+  {
+    "afdeling": "Havo de Hof - v.a. havo",
+    "eerste_voorkeur_2024": 47,
+    "eerste_voorkeur_2025": 53,
+    "verschil_percentage": 113
+  },
+  {
+    "afdeling": "Hubertus & Berkhoff - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 73,
+    "eerste_voorkeur_2025": 82,
+    "verschil_percentage": 112
+  },
+  {
+    "afdeling": "Xplore - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 27,
+    "eerste_voorkeur_2025": 30,
+    "verschil_percentage": 111
+  },
+  {
+    "afdeling": "AB Noorderlicht - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 78,
+    "eerste_voorkeur_2025": 86,
+    "verschil_percentage": 110
+  },
+  {
+    "afdeling": "OSB - v.a. havo",
+    "eerste_voorkeur_2024": 30,
+    "eerste_voorkeur_2025": 33,
+    "verschil_percentage": 110
+  },
+  {
+    "afdeling": "HLW alle afdelingen",
+    "eerste_voorkeur_2024": 159,
+    "eerste_voorkeur_2025": 174,
+    "verschil_percentage": 109
+  },
+  {
+    "afdeling": "Metropolis Lyceum - v.a. havo",
+    "eerste_voorkeur_2024": 45,
+    "eerste_voorkeur_2025": 49,
+    "verschil_percentage": 109
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - v.a. havo",
+    "eerste_voorkeur_2024": 24,
+    "eerste_voorkeur_2025": 26,
+    "verschil_percentage": 108
+  },
+  {
+    "afdeling": "Metis Montessori Lyceum - Coderclass of Kunst & Co. - v.a. havo",
+    "eerste_voorkeur_2024": 112,
+    "eerste_voorkeur_2025": 121,
+    "verschil_percentage": 108
+  },
+  {
+    "afdeling": "St. Nicolaaslyceum - Tweetalig Onderwijs - vwo",
+    "eerste_voorkeur_2024": 53,
+    "eerste_voorkeur_2025": 57,
+    "verschil_percentage": 108
+  },
+  {
+    "afdeling": "Bredero - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 75,
+    "eerste_voorkeur_2025": 79,
+    "verschil_percentage": 105
+  },
+  {
+    "afdeling": "Calandlyceum - v.a. havo",
+    "eerste_voorkeur_2024": 20,
+    "eerste_voorkeur_2025": 21,
+    "verschil_percentage": 105
+  },
+  {
+    "afdeling": "Vossius Gymnasium - vwo",
+    "eerste_voorkeur_2024": 91,
+    "eerste_voorkeur_2025": 95,
+    "verschil_percentage": 104
+  },
+  {
+    "afdeling": "Metis Montessori Lyceum - Technasium - v.a. havo",
+    "eerste_voorkeur_2024": 109,
+    "eerste_voorkeur_2025": 113,
+    "verschil_percentage": 104
+  },
+  {
+    "afdeling": "IVKO - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 93,
+    "eerste_voorkeur_2025": 95,
+    "verschil_percentage": 102
+  },
+  {
+    "afdeling": "St. Nicolaaslyceum - v.a. havo",
+    "eerste_voorkeur_2024": 277,
+    "eerste_voorkeur_2025": 281,
+    "verschil_percentage": 101
+  },
+  {
+    "afdeling": "Metis Montessori Lyceum - Technasium - vwo",
+    "eerste_voorkeur_2024": 91,
+    "eerste_voorkeur_2025": 92,
+    "verschil_percentage": 101
+  },
+  {
+    "afdeling": "Cartesius Amsterdam - De Plaats - v.a. havo",
+    "eerste_voorkeur_2024": 8,
+    "eerste_voorkeur_2025": 8,
+    "verschil_percentage": 100
+  },
+  {
+    "afdeling": "College ZUYD - Talentendansklas - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 20,
+    "eerste_voorkeur_2025": 20,
+    "verschil_percentage": 100
+  },
+  {
+    "afdeling": "Marcanti College - v.a. havo",
+    "eerste_voorkeur_2024": 1,
+    "eerste_voorkeur_2025": 1,
+    "verschil_percentage": 100
+  },
+  {
+    "afdeling": "Yuverta VMBO Amsterdam West - vmbo-g-t",
+    "eerste_voorkeur_2024": 2,
+    "eerste_voorkeur_2025": 2,
+    "verschil_percentage": 100
+  },
+  {
+    "afdeling": "Huygens College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 84,
+    "eerste_voorkeur_2025": 83,
+    "verschil_percentage": 99
+  },
+  {
+    "afdeling": "Vinse School - vwo",
+    "eerste_voorkeur_2024": 27,
+    "eerste_voorkeur_2025": 26,
+    "verschil_percentage": 96
+  },
+  {
+    "afdeling": "Spinoza Lyceum - Gymnasium - vwo",
+    "eerste_voorkeur_2024": 25,
+    "eerste_voorkeur_2025": 24,
+    "verschil_percentage": 96
+  },
+  {
+    "afdeling": "Berlage Lyceum - Tweetalig - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 72,
+    "eerste_voorkeur_2025": 69,
+    "verschil_percentage": 96
+  },
+  {
+    "afdeling": "HLZ (Hervormd Lyceum Zuid) - v.a. havo",
+    "eerste_voorkeur_2024": 63,
+    "eerste_voorkeur_2025": 60,
+    "verschil_percentage": 95
+  },
+  {
+    "afdeling": "Metropolis Lyceum - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 37,
+    "eerste_voorkeur_2025": 35,
+    "verschil_percentage": 95
+  },
+  {
+    "afdeling": "Metis Montessori Lyceum - Coderclass of Kunst & Co. - vwo",
+    "eerste_voorkeur_2024": 82,
+    "eerste_voorkeur_2025": 77,
+    "verschil_percentage": 94
+  },
+  {
+    "afdeling": "OSB - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 65,
+    "eerste_voorkeur_2025": 61,
+    "verschil_percentage": 94
+  },
+  {
+    "afdeling": "Barlaeus Gymnasium - vwo",
+    "eerste_voorkeur_2024": 272,
+    "eerste_voorkeur_2025": 254,
+    "verschil_percentage": 93
+  },
+  {
+    "afdeling": "Yuverta VMBO Amsterdam Oost - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 15,
+    "eerste_voorkeur_2025": 14,
+    "verschil_percentage": 93
+  },
+  {
+    "afdeling": "CSB - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 57,
+    "eerste_voorkeur_2025": 52,
+    "verschil_percentage": 91
+  },
+  {
+    "afdeling": "Lumion - v.a. havo",
+    "eerste_voorkeur_2024": 82,
+    "eerste_voorkeur_2025": 74,
+    "verschil_percentage": 90
+  },
+  {
+    "afdeling": "Cburg College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 61,
+    "eerste_voorkeur_2025": 55,
+    "verschil_percentage": 90
+  },
+  {
+    "afdeling": "Cartesius Amsterdam - Het Lyceum - v.a. havo",
+    "eerste_voorkeur_2024": 40,
+    "eerste_voorkeur_2025": 36,
+    "verschil_percentage": 90
+  },
+  {
+    "afdeling": "IVKO - v.a. havo",
+    "eerste_voorkeur_2024": 67,
+    "eerste_voorkeur_2025": 60,
+    "verschil_percentage": 90
+  },
+  {
+    "afdeling": "Cornelius Haga Lyceum - v.a. havo",
+    "eerste_voorkeur_2024": 18,
+    "eerste_voorkeur_2025": 16,
+    "verschil_percentage": 89
+  },
+  {
+    "afdeling": "Fons Vitae Lyceum - vwo",
+    "eerste_voorkeur_2024": 124,
+    "eerste_voorkeur_2025": 110,
+    "verschil_percentage": 89
+  },
+  {
+    "afdeling": "Comenius Lyceum Amsterdam - v.a. havo",
+    "eerste_voorkeur_2024": 149,
+    "eerste_voorkeur_2025": 131,
+    "verschil_percentage": 88
+  },
+  {
+    "afdeling": "Alasca - vwo",
+    "eerste_voorkeur_2024": 32,
+    "eerste_voorkeur_2025": 28,
+    "verschil_percentage": 88
+  },
+  {
+    "afdeling": "HLZ (Hervormd Lyceum Zuid) - vwo",
+    "eerste_voorkeur_2024": 25,
+    "eerste_voorkeur_2025": 21,
+    "verschil_percentage": 84
+  },
+  {
+    "afdeling": "Alasca - v.a. havo",
+    "eerste_voorkeur_2024": 55,
+    "eerste_voorkeur_2025": 46,
+    "verschil_percentage": 84
+  },
+  {
+    "afdeling": "Comenius Lyceum Amsterdam - vwo",
+    "eerste_voorkeur_2024": 79,
+    "eerste_voorkeur_2025": 66,
+    "verschil_percentage": 84
+  },
+  {
+    "afdeling": "Hubertus & Berkhoff - Tweetalig - vmbo-k",
+    "eerste_voorkeur_2024": 12,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 83
+  },
+  {
+    "afdeling": "Hyperion Lyceum - vwo",
+    "eerste_voorkeur_2024": 210,
+    "eerste_voorkeur_2025": 175,
+    "verschil_percentage": 83
+  },
+  {
+    "afdeling": "Marcanti College - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 12,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 83
+  },
+  {
+    "afdeling": "Spinoza Lyceum - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 158,
+    "eerste_voorkeur_2025": 130,
+    "verschil_percentage": 82
+  },
+  {
+    "afdeling": "Spinoza Lyceum - v.a. havo",
+    "eerste_voorkeur_2024": 136,
+    "eerste_voorkeur_2025": 111,
+    "verschil_percentage": 82
+  },
+  {
+    "afdeling": "DENISE - v.a. havo",
+    "eerste_voorkeur_2024": 5,
+    "eerste_voorkeur_2025": 4,
+    "verschil_percentage": 80
+  },
+  {
+    "afdeling": "Montessori Lyceum Oostpoort - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 74,
+    "eerste_voorkeur_2025": 59,
+    "verschil_percentage": 80
+  },
+  {
+    "afdeling": "Geert Groote College - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 64,
+    "eerste_voorkeur_2025": 51,
+    "verschil_percentage": 80
+  },
+  {
+    "afdeling": "Spinoza Lyceum - Muziekplus - v.a. havo",
+    "eerste_voorkeur_2024": 22,
+    "eerste_voorkeur_2025": 17,
+    "verschil_percentage": 77
+  },
+  {
+    "afdeling": "Geert Groote College - v.a. havo",
+    "eerste_voorkeur_2024": 56,
+    "eerste_voorkeur_2025": 43,
+    "verschil_percentage": 77
+  },
+  {
+    "afdeling": "De Amsterdamse MAVO - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 66,
+    "eerste_voorkeur_2025": 50,
+    "verschil_percentage": 76
+  },
+  {
+    "afdeling": "College De Meer - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 16,
+    "eerste_voorkeur_2025": 12,
+    "verschil_percentage": 75
+  },
+  {
+    "afdeling": "CSB - v.a. havo",
+    "eerste_voorkeur_2024": 44,
+    "eerste_voorkeur_2025": 33,
+    "verschil_percentage": 75
+  },
+  {
+    "afdeling": "Kiem Montessori - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 72,
+    "eerste_voorkeur_2025": 53,
+    "verschil_percentage": 74
+  },
+  {
+    "afdeling": "Gerrit van der Veen College - DaMu - v.a. havo",
+    "eerste_voorkeur_2024": 34,
+    "eerste_voorkeur_2025": 25,
+    "verschil_percentage": 74
+  },
+  {
+    "afdeling": "Gerrit van der Veen College - vwo",
+    "eerste_voorkeur_2024": 46,
+    "eerste_voorkeur_2025": 33,
+    "verschil_percentage": 72
+  },
+  {
+    "afdeling": "TASC - vmbo-g-t",
+    "eerste_voorkeur_2024": 7,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 71
+  },
+  {
+    "afdeling": "Calandlyceum - Technasium - v.a. havo",
+    "eerste_voorkeur_2024": 10,
+    "eerste_voorkeur_2025": 7,
+    "verschil_percentage": 70
+  },
+  {
+    "afdeling": "Over-Y - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 74,
+    "eerste_voorkeur_2025": 51,
+    "verschil_percentage": 69
+  },
+  {
+    "afdeling": "Het 4e Gymnasium - vwo",
+    "eerste_voorkeur_2024": 128,
+    "eerste_voorkeur_2025": 88,
+    "verschil_percentage": 69
+  },
+  {
+    "afdeling": "Mediacollege Amsterdam - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 16,
+    "eerste_voorkeur_2025": 11,
+    "verschil_percentage": 69
+  },
+  {
+    "afdeling": "DENISE - vwo",
+    "eerste_voorkeur_2024": 3,
+    "eerste_voorkeur_2025": 2,
+    "verschil_percentage": 67
+  },
+  {
+    "afdeling": "Geert Groote College - vwo",
+    "eerste_voorkeur_2024": 33,
+    "eerste_voorkeur_2025": 22,
+    "verschil_percentage": 67
+  },
+  {
+    "afdeling": "Spinoza20first - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 188,
+    "eerste_voorkeur_2025": 125,
+    "verschil_percentage": 66
+  },
+  {
+    "afdeling": "Comenius Lyceum Amsterdam - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 227,
+    "eerste_voorkeur_2025": 150,
+    "verschil_percentage": 66
+  },
+  {
+    "afdeling": "OSB - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 111,
+    "eerste_voorkeur_2025": 71,
+    "verschil_percentage": 64
+  },
+  {
+    "afdeling": "Marcanti College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 42,
+    "eerste_voorkeur_2025": 26,
+    "verschil_percentage": 62
+  },
+  {
+    "afdeling": "Calandlyceum - Topsport - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 26,
+    "eerste_voorkeur_2025": 16,
+    "verschil_percentage": 62
+  },
+  {
+    "afdeling": "Mediacollege Amsterdam - v.a. vmbo-k",
+    "eerste_voorkeur_2024": 39,
+    "eerste_voorkeur_2025": 24,
+    "verschil_percentage": 62
+  },
+  {
+    "afdeling": "Yuverta VMBO Amsterdam West - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 41,
+    "eerste_voorkeur_2025": 25,
+    "verschil_percentage": 61
+  },
+  {
+    "afdeling": "Ir. Lely Lyceum alle afdelingen",
+    "eerste_voorkeur_2024": 245,
+    "eerste_voorkeur_2025": 147,
+    "verschil_percentage": 60
+  },
+  {
+    "afdeling": "Damstede - vwo",
+    "eerste_voorkeur_2024": 17,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 59
+  },
+  {
+    "afdeling": "Bindelmeer College - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 32,
+    "eerste_voorkeur_2025": 17,
+    "verschil_percentage": 53
+  },
+  {
+    "afdeling": "Montessori Lyceum Terra Nova - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 34,
+    "eerste_voorkeur_2025": 18,
+    "verschil_percentage": 53
+  },
+  {
+    "afdeling": "Cartesius Amsterdam - De Plaats - vwo",
+    "eerste_voorkeur_2024": 2,
+    "eerste_voorkeur_2025": 1,
+    "verschil_percentage": 50
+  },
+  {
+    "afdeling": "Montessori Lyceum Oostpoort - v.a. havo",
+    "eerste_voorkeur_2024": 10,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 50
+  },
+  {
+    "afdeling": "Mediacollege Amsterdam - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 26,
+    "eerste_voorkeur_2025": 12,
+    "verschil_percentage": 46
+  },
+  {
+    "afdeling": "Hubertus & Berkhoff - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 22,
+    "eerste_voorkeur_2025": 10,
+    "verschil_percentage": 45
+  },
+  {
+    "afdeling": "Damstede - v.a. havo",
+    "eerste_voorkeur_2024": 91,
+    "eerste_voorkeur_2025": 40,
+    "verschil_percentage": 44
+  },
+  {
+    "afdeling": "Over-Y - Sportklas - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 8,
+    "eerste_voorkeur_2025": 3,
+    "verschil_percentage": 38
+  },
+  {
+    "afdeling": "Montessori Lyceum Terra Nova - v.a. vmbo-b",
+    "eerste_voorkeur_2024": 17,
+    "eerste_voorkeur_2025": 6,
+    "verschil_percentage": 35
+  },
+  {
+    "afdeling": "Montessori Lyceum Terra Nova - v.a. havo",
+    "eerste_voorkeur_2024": 16,
+    "eerste_voorkeur_2025": 5,
+    "verschil_percentage": 31
+  },
+  {
+    "afdeling": "Spring High - v.a. vmbo-g-t",
+    "eerste_voorkeur_2024": 16,
+    "eerste_voorkeur_2025": 3,
+    "verschil_percentage": 19
+  }
+]
