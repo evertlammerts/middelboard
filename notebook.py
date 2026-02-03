@@ -196,6 +196,10 @@ def _(db, mo, pl):
     for _row in _stadsdeel_data.to_dicts():
         _stadsdeel_options[_row['naam']] = _row['id']
 
+    school_name_filter = mo.ui.text(
+        placeholder="Zoek school...",
+        label="School",
+    )
     stadsdeel_filter = mo.ui.dropdown(
         options=_stadsdeel_options,
         value="Alle stadsdelen",
@@ -210,7 +214,7 @@ def _(db, mo, pl):
         start=0, stop=3, step=0.1, value=[0, 3],
         label="Populariteitsratio"
     )
-    return ratio_filter, stadsdeel_filter, type_filter
+    return ratio_filter, school_name_filter, stadsdeel_filter, type_filter
 
 
 @app.cell
@@ -222,6 +226,7 @@ def _(
     my_list_state,
     pl,
     ratio_filter,
+    school_name_filter,
     set_active_tab,
     set_selected_school,
     show_hidden_state,
@@ -285,6 +290,7 @@ def _(
     _min_ratio, _max_ratio = ratio_filter.value
     _hidden = hidden_schools_state()
     _show_hidden = show_hidden_state()
+    _name_search = (school_name_filter.value or "").strip().lower()
 
     schools_list = []
     school_buttons = {}  # Map school name to button for clicking
@@ -300,6 +306,14 @@ def _(
         _ratio = _row.get('ratio') or 0
         if _ratio < _min_ratio or _ratio > _max_ratio:
             continue
+
+        # Filter by school name (approximate matching - case-insensitive substring)
+        if _name_search:
+            _school_name_lower = _row['school'].lower()
+            _variant_lower = (_row.get('variant') or "").lower()
+            # Match against school name or variant
+            if _name_search not in _school_name_lower and _name_search not in _variant_lower:
+                continue
         _in_list = any(item['afdeling_id'] == _afdeling_id for item in my_list_state())
         if _ratio > 1.0:
             _ratio_display = f"🔴 {_ratio:.2f}"
@@ -486,6 +500,7 @@ def _(
     list_status,
     mo,
     ratio_filter,
+    school_name_filter,
     set_show_hidden,
     show_hidden_state,
     stadsdeel_filter,
@@ -505,7 +520,7 @@ def _(
 Verken alle VWO-scholen op populariteit en kwaliteit. 🔴 = populair (ratio > 1), 🟡 = gemiddeld, 🟢 = minder populair.
 
 **Kwaliteitskolommen:** CE en Slaag% tonen landelijk gemiddelde tussen haakjes. Tevredenheid: Leerl./Ouders/Sfeer/Veilig (schaal 1-10)."""),
-        mo.hstack([stadsdeel_filter, type_filter, ratio_filter], gap=2),
+        mo.hstack([school_name_filter, stadsdeel_filter, type_filter, ratio_filter], gap=2),
         mo.hstack([add_button, visibility_button, show_hidden_checkbox, list_status], gap=2),
         explorer_table,
         explorer_map,
