@@ -7,7 +7,7 @@ git clone https://github.com/evertlammerts/middelboard.git
 uv run marimo run notebook.py
 ```
 
-## Scholen
+## Scholen (alleen scholen met VWO)
 
 - Alasca
 - Barlaeus Gymnasium
@@ -43,31 +43,4 @@ uv run marimo run notebook.py
 - Vinse School
 - Vossius Gymnasium
 - Xplore
-
-## Scholen toevoegen
-
-Je kunt scholen toevoegen aan het dashboard om de resultaat- en tevredenheidcijfers te vergelijken. De "red flags" sectie wordt dan neit ge-update - die is gemaakt door Claude.
-
-Stappen:
-1. Voeg de URL van de school toe aan urls.txt.
-2. Download de HTML: 
-```
-for url in `cat urls.txt`; do
-  filename_suffix="$( basename $url ).html"
-  curl -o html/resultaten-${filename_suffix} "${url}resultaten/"
-  curl -o html/tevredenheid-${filename_suffix} "${url}tevredenheid/"
-done
-```
-3. Extraheer de data naar JSON:
-```
-uv run python parse_schools.py
-```
-4. Re-genereer de database:
-```
-uv run python create_database.py
-```
-5. Bekijk de school in Marimo:
-```
-uv run marimo run notebook.py
-```
 
